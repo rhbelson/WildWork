@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<link type="text/css" rel="stylesheet" href="task_eval.css">
+ <script src="task_eval.js"></script> 
+<html>
+<head>
+<title>Rack</title>
+</head>
+
+
+
+<body>
+	<div id="profile_box" class="probox">
+		<img src="profile.png" style="width:100px;height:100px;">
+	</div>
+
+	<div class= "title" id="title_box">
+	Session Summary
+	</div>
+	<div class="taskName" id="taskName">
+	Task Name due: <span id="time-date"> dd/mm </span>
+	</div>
+	<div class="timeSpent" id="timeSpent">
+	Time Spent: <span id="time-date"> hh:mm:ss </span>
+	</div>
+	<div class="h2" id="completeness">
+	Indicate how complete the task is now:
+	</div>
+	<div id= "scale">
+	<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">Incomplete
+	<input type="range" id="a" value="50">Complete
+	</form>
+	</div>
+	<div class="distract" id="distract">
+	You were distracted by...
+	</div>
+
+	<div class="links" id="links">
+	<a href="https://www.facebook.com/"> www.facebook.com </a>
+	</div>
+	<div class="links" id="links">
+	<a href="https://www.pinterest.com/"> www.pinterest.com </a>
+	</div>
+	<div class="links" id="links">
+	<a href="https://www.instagram.com/"> www.instagram.com </a>
+	</div>
+
+	<h3 id="done"> Done </h3>
+
+
+</body>
+
+</html>
+

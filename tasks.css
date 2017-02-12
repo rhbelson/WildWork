@@ -1,0 +1,125 @@
+ body {
+  /*background: #fff url("../img/homeimg.jpg") repeat-x;*/
+  background: #fff url("homeimg2.jpg") no-repeat fixed center; 
+  background-size: cover;
+ }
+ 
+ #tasks_title{
+ 	margin-top: 25px;
+ 	position:relative;
+    left: 15%;
+ 	font-family: "Georgia", serif;
+ 	font-size: 50px;
+ 	font-style: normal;
+ 	font-weight: normal;
+ 	color: #ed8993;
+ 	vertical-align: middle;
+ }
+
+
+ #plusbutton {
+ 	position:absolute;
+ 	left:30%;
+ 	font-family: "Georgia", serif;
+ 	font-style: bold;
+ 	text-align: center;
+ 	margin-top: 240px;
+ 	cursor: pointer;
+ }
+
+
+
+
+ #time {
+ 	position:relative;
+ 	font-family: "Georgia", serif;
+ 	font-style: bold;
+ 	text-shadow: 1px 1px #9BD5E6; 
+ 	font-size: 130px;
+ 	text-align: center;
+ 	color: #E7F1F4;
+ 	vertical-align: middle;
+ }
+
+
+ #profile_box {
+ 	color:#000000; 	
+ }
+
+
+
+
+ #editable2, #editable3, #editable4, #editable5, #editable6 {
+ 	visibility: hidden;
+ }
+
+
+ /*ol IF WE WANT TO GET RID OF ORDERING NUMBERS {
+  list-style-type: none;
+}*/
+
+li {
+	width:600px;
+	left:25%;
+	color: black;
+ 	padding-top: 20px;
+ 	padding-bottom:30px;
+ 	font-family: "Georgia", serif;
+    font-style: bold;
+ 	font-style: bold;
+ 	text-align: left;
+    position: relative;
+    left:5%;
+    width: 200px;
+    text-align: center;
+
+}
+
+#my_tasks_list {
+    background: #c0c0c0;
+    opacity:0.95;
+    border-radius: 5px;
+    width: 300px;
+    height: 70px;
+
+}
+
+ /*ol li {
+    cursor: pointer;
+    position: relative;
+    font-size: 18px;
+    font-family: "Georgia", serif;
+    font-style: bold;
+    transition: 0.4s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+} */
+
+/* Set all odd list items to a different color (zebra-stripes) */
+/*ol li:nth-child(1) {
+    background: #c0c0c0;
+    opacity: 0.8;
+}*/
+
+/* Darker background-color on hover */
+ol li:hover {
+    background: #c0c0c0;
+    opacity: 0.8;
+}
+
+#continue_button {
+	cursor: pointer;
+    position: relative;
+    font-size: 38px;
+    font-family: "Georgia", serif;
+    font-style: bold;
+    border: solid;
+    width: fit-content;
+    left:80%;
+    border-color: green;
+    color:green;
+    background: #c0c0c0;
+    opacity: 0.8;
+}

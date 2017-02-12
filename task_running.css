@@ -1,0 +1,87 @@
+ body {
+  /*background: #fff url("../img/homeimg.jpg") repeat-x;*/
+  background: #fff url("homeimg2.jpg") no-repeat fixed center; 
+ }
+ 
+ #date {
+ 	margin-top:-80px;
+ 	position:relative;
+ 	font-family: "Georgia", serif;
+ 	font-style: italic;
+ 	text-shadow: 1px 1px #9BD5E6; 
+ 	font-size: 40px;
+ 	color: #E7F1F4;
+ 	vertical-align: middle;
+ 	left:28%;
+ 	margin-bottom: 20px;
+ }
+
+#elapsed_time {
+	font-family: "Georgia", serif;
+ 	font-style: italic;
+ 	color:black;
+ 	position: relative;
+ 	left:77%;
+ 	top:-65px;
+ 	color:white;
+}
+
+ #time {
+ 	position:relative;
+ 	margin-top: -10px;
+ 	left:28%;
+ 	font-family: "Georgia", serif;
+ 	font-style: bold;
+ 	text-shadow: 1px 1px #9BD5E6; 
+ 	font-size: 40px;
+ 	color: #E7F1F4;
+ 	vertical-align: middle;
+ }
+
+
+ #profile_box {
+ 	color:#000000; 	
+ }
+
+ #current_task {
+ 	margin-right: 40px;
+ 	position:relative;
+ 	font-family: "Georgia", serif;
+ 	font-style: italic;
+ 	text-shadow: 1px 1px #9BD5E6; 
+ 	font-size: 40px;
+ 	text-align: right;
+ 	color: #E7F1F4;
+ 	top:-50px;
+ }
+
+#task_complete {
+	left:78%;
+ 	position:relative;
+ 	font-family: "Georgia", serif;
+ 	font-style: underline;
+ 	font-size: 30px;
+ 	color:green;
+ 	top:-60px;
+ 	cursor:pointer; 
+ 	background: #c0c0c0;
+ 	width:fit-content;
+}
+
+
+ #my_task {
+ 	margin-top: 15px;
+ 	position:relative;
+ 	left:85%;
+ 	top:-60px;
+ 	font-family: "Georgia", serif;
+ 	font-style: italic;
+ 	text-shadow: 1px 1px #9BD5E6; 
+ 	font-size: 30px;
+ 	color: #E7F1F4;
+ 	vertical-align: middle;
+ }
+
+
+
+

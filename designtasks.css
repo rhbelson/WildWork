@@ -1,0 +1,128 @@
+ body {
+  /*background: #fff url("../img/homeimg.jpg") repeat-x;*/
+  background-image: url("homeimg2.jpg");
+  background-size: cover; 
+  background-repeat:   no-repeat;
+  background-position: center center;
+
+ }
+ 
+ #title_box {
+ 	position: relative;
+ 	font-style: bold;
+ 	font-size: 60px;
+ 	text-align: center;
+ 	top:-40px;
+ 	font-style: italic;
+ 	text-shadow: 1px 1px black; 
+ 	color: #E7F1F4; 
+ 	font-family: 'Libre Baskerville'; font-size: 64px; font-weight: 700; line-height: 64px; margin: 0 0 0; padding: 20px 30px; text-align: center; text-transform: uppercase;  
+ 	}
+
+
+
+ #profile_box {
+ 	color:#000000; 	
+ }
+
+
+ #getstarted_box {
+ 	color:green;
+ 	font-family: "Georgia", serif;
+ 	font-size: 50px;
+ 	font-style: bold;
+ 	text-shadow: 1px 1px; 
+ 	text-align: center;
+ 	margin-top: 30px;
+ 	border-style: solid;
+ 	border-width: 9px;
+ 	border-color:white;
+ 	width:fit-content;
+ 	margin-left: 700px;
+
+ }
+
+ table, th, td {
+    border: 1px solid white;
+    font-family: "Lucida Sans Unicode";
+    color: white;
+    text-align: left;
+}
+
+#spacer {
+	height: 80px;
+}
+
+#spacer2{
+	height: 60px;
+}
+
+#spacer3{
+	height: 75px;
+}
+
+#input_box1, #input_box2, #input_box3, #input_box4{
+	top: -10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	background: #c0c0c0;
+	font-size: 35px;
+  	position: relative;
+	float: left;
+	margin: auto;
+	font-family: "Georgia", serif;
+	color:black;
+	opacity: .7;
+	border-radius: 20px;
+	transform: translateY(180%);
+	transform: translateX(50%);
+	height:fit-content;
+	width: 200px;
+
+}
+#dropdown1 {
+    position: fixed;
+    top: 210px;
+    right: 800px;
+}
+
+#dropdown2 {
+	position: fixed;
+	top: 210px;
+	right: 600px;
+}
+
+#scale{
+	position: fixed;
+	top: 210px;
+	right: 200px;
+	font-size: 20px;
+	color: white;
+	font-family: "Georgia", serif;
+ 	font-style: bold;
+}
+
+#calender_popup {
+	position: fixed;
+	top: 50px;
+	right: 100px;
+}
+
+
+
+#continue_button {
+	cursor: pointer;
+    position: relative;
+    font-size: 38px;
+    font-family: "Georgia", serif;
+    font-style: bold;
+    border: solid;
+    width: fit-content;
+    left:65%;
+    border-color: green;
+    color:green;
+    background: #8eabdb;
+    border-radius: 10px;
+    opacity: 0.7;
+}
+

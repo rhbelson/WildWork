@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+
+<script src="designtasks.js"></script>
+<link type="text/css" rel="stylesheet" href="designtasks.css">
+<html>
+<head>
+<title>Rack</title>
+<script type='text/javascript' src="designtasks.js"></script>
+<script language="JavaScript" src="ts_picker.js">
+
+//Script by Denis Gritcyuk: tspicker@yahoo.com
+//Submitted to JavaScript Kit (http://javascriptkit.com)
+//Visit http://javascriptkit.com for this script
+
+</script>
+
+</head>
+
+
+
+<body>
+	<div id="profile_box" class="probox">
+		<img src="profile.png" style="width:100px;height:100px;">
+	</div>
+
+	<div class= "title" id="title_box">
+	Customize Your Tasks
+	</div>
+
+<form>
+  <h2 id="input_box1" disabled="disabled">Task #1</h2><br>
+  <div id="spacer"> </div>
+  <h2 id="input_box2" disabled="disabled">Task #2</h2><br>
+  <div id="spacer"> </div>
+  <h2 id="input_box3" disabled="disabled">Task #3</h2><br>
+  <div id="spacer"> </div>
+  <h2 id="input_box4" disabled="disabled">Task #4</h2><br>
+</form>
+
+<div id= "dropdown1">
+<form >
+  <select name="dropdown1">
+    <option value="Select Due Date">Select Due Date</option>
+    <option value="calender">calender</option>
+    <option value="no due date">no due date</option>
+    <option value="audi"></option>
+  </select>
+
+  <a href="javascript:show_calendar('document.tstest.timestamp', document.tstest.timestamp.value);"><img src="cal.gif" width="16" height="16" border="0" alt="Click Here to Pick up the timestamp"></a>
+  <br><br>
+  <div id="spacer2"> </div>
+  <select name="dropdown1">
+    <option value="Select Due Date">Select Due Date</option>
+    <option value="calender">calender</option>
+    <option value="no due date">no due date</option>
+    <option value=""></option>
+  </select>
+  <a href="javascript:show_calendar('document.tstest.timestamp', document.tstest.timestamp.value);"><img src="cal.gif" id="cal_1" width="16" height="16" border="0" alt="Click Here to Pick up the timestamp"></a>
+   <br><br>
+  <div id="spacer2"> </div>
+   <select name="dropdown1">
+    <option value="Select Due Date">Select Due Date</option>
+    <option value="calender">calender</option>
+    <option value="no due date">no due date</option>
+    <option value=""></option>
+  </select>
+  <a href="javascript:show_calendar('document.tstest.timestamp', document.tstest.timestamp.value);"><img src="cal.gif" width="16" height="16" border="0" alt="Click Here to Pick up the timestamp"></a>
+
+  <br><br>
+  <div id="spacer2"> </div>
+  <select name="dropdown1">
+    <option value="Select Due Date">Select Due Date</option>
+    <option value="calender">calender</option>
+    <option value="no due date">no due date</option>
+    <option value=""></option>
+  </select>
+   <a href="javascript:show_calendar('document.tstest.timestamp', document.tstest.timestamp.value);"><img src="cal.gif" width="16" height="16" border="0" alt="Click Here to Pick up the timestamp"></a>
+
+  <br><br>
+</form>
+</div>
+
+<div id= "dropdown2">
+<form >
+  <select name="dropdown2">
+    <option value="Task Type">Task Type</option>
+    <option value="school">School</option>
+    <option value="work">Work</option>
+    <option value="extracurricular">Extracurricular</option>
+    <option value="other">Other</option>
+  </select>
+  <br><br>
+  <div id="spacer2"> </div>
+  <select name="dropdown2">
+    <option value="Task Type">Task Type</option>
+    <option value="school">School</option>
+    <option value="work">Work</option>
+    <option value="extracurricular">Extracurricular</option>
+    <option value="other">Other</option>
+  </select>
+   <br><br>
+  <div id="spacer2"> </div>
+   <select name="dropdown2">
+   <option value="Task Type">Task Type</option>
+    <option value="school">School</option>
+    <option value="work">Work</option>
+    <option value="extracurricular">Extracurricular</option>
+    <option value="other">Other</option>
+  </select>
+  <br><br>
+  <div id="spacer2"> </div>
+  <select name="dropdown2">
+    <option value="Task Type">Task Type</option>
+    <option value="school">School</option>
+    <option value="work">Work</option>
+    <option value="extracurricular">Extracurricular</option>
+    <option value="other">Other</option>
+  </select>
+  <br><br>
+</form>
+</div>
+
+<div id= "scale">
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">Incomplete
+<input type="range" id="a" value="50">Complete
+</form>
+<div id="spacer3"> </div>
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">Incomplete
+<input type="range" id="a" value="50">Complete
+</form>
+<div id="spacer3"> </div>
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">Incomplete
+<input type="range" id="a" value="50">Complete
+</form>
+<div id="spacer3"> </div>
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">Incomplete
+<input type="range" id="a" value="50">Complete
+</form>
+</div>
+
+<h3 id="continue_button"> Let's Get To Work! &#8658 </h3>
+
+</body>
+
+</html>
+

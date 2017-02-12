@@ -1,0 +1,96 @@
+ body {
+  /*background: #fff url("../img/homeimg.jpg") repeat-x;*/
+  background: #fff url("homeimg2.jpg") no-repeat fixed center;
+  background-size: cover; 
+ }
+ 
+ #title_box {
+ 	font-family: "Georgia", serif;
+ 	font-style: italic;
+ 	text-shadow: 1px 1px #9BD5E6; 
+ 	font-size: 60px;
+ 	text-align: center;
+ 	margin-top: 20px;
+ 	color: #E7F1F4;
+ }
+
+
+ #profile_box {
+ 	color:#000000; 	
+ }
+
+
+ #taskName{
+ 	font-family: "Georgia", serif;
+ 	font-size: 25px;
+ 	color: white;
+ 	text-align: center;
+ 	margin-top: 30px;
+ }
+
+#timeSpent{
+	font-family: "Georgia", serif;
+ 	font-size: 25px;
+ 	color: white;
+ 	text-align: center;
+ 	margin-top: 30px;
+ }
+
+#time-date{
+	font-family: "Georgia", serif;
+ 	font-size: 25px;
+ 	color: red;
+ 	text-align: center;
+ 	margin-top: 30px;
+ 	background-color: white;
+ 	padding: 5px;
+}
+
+#scale{
+    position: absolute;
+    left: 0;
+    top: 360px;
+    width: 100%;
+    text-align: center;
+	color: white;
+	font-family: "Georgia", serif;
+ 	font-size: 25px;
+}
+
+#completeness{
+	font-family: "Georgia", serif;
+ 	font-size: 15px;
+ 	color: black;
+ 	text-align: center;
+ 	margin-top: 20px;
+}
+
+#distract{
+	font-family: "Georgia", serif;
+ 	font-size: 25px;
+ 	color: purple;
+ 	text-align: center;
+ 	margin-top: 55px;
+}
+
+#links{
+	text-align: center;
+	padding-top: 5px;
+}
+
+#done {
+	cursor: pointer;
+    position: relative;
+    font-size: 38px;
+    font-family: "Georgia", serif;
+    font-style: bold;
+    border: solid;
+    width: fit-content;
+    left:80%;
+    border-color: green;
+    color:green;
+    background: #8eabdb;
+    border-radius: 10px;
+    opacity: 0.7;
+    padding: 5px;
+}

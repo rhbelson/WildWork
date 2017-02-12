@@ -1,0 +1,80 @@
+ body {
+  background: #fff url("homeimg2.jpg") no-repeat fixed center; 
+  background-size: cover;
+ }
+ 
+ #date {
+ 	margin-top: 10px;
+ 	position:relative;
+ 	font-family: "Georgia", serif;
+ 	font-style: italic;
+ 	text-shadow: 1px 1px #9BD5E6; 
+ 	font-size: 40px;
+ 	text-align: center;
+ 	color: #E7F1F4;
+ 	vertical-align: middle;
+ }
+
+ #time {
+ 	position:relative;
+ 	font-family: "Georgia", serif;
+ 	font-style: bold;
+ 	text-shadow: 1px 1px #9BD5E6; 
+ 	font-size: 40px;
+ 	text-align: center;
+ 	color: #E7F1F4;
+ 	vertical-align: middle;
+ }
+
+
+ul {
+	list-style-type: square;
+	padding-right:20px;
+	background: #c6c5c8;
+	width: 450px;
+	opacity: 0.8;
+	padding-bottom: 5px;
+	border-radius: 4px;	
+	
+}
+li {
+	position: relative;
+	font-family: "Georgia", serif;
+ 	font-style: italic;
+ 	font-size: 25px;
+ 	left:2%;
+ 	margin-bottom: 20px;
+ 	width: fit-content;
+ 	color:#000000;
+}
+
+h1 {
+	position: relative;
+	left: 4%;
+	font-family: "Georgia", serif;
+ 	font-style: bold;
+ 	font-size: 30px;
+ 	color:#c45e61;
+
+}
+
+button {
+	font-size: 20px;
+	border-radius: 4px;
+	font-family: "Georgia", serif;
+	background: #c0c0c0;
+	color:green;
+}
+
+ #profile_box {
+ 	color:#000000; 	
+ }
+
+#b1,#b2,#b3,#b4,#b5,#b6 {
+	position: relative;
+	left:60%;
+	top: -50px;
+}
+
+
+
