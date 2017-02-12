@@ -21,5 +21,5 @@
  }
 
  function goto_todolist() {
- 	location.replace("../RACK/todolist.html");
+ 	location.replace("todolist.html");
  }

@@ -13,7 +13,7 @@ window.setInterval(function(){
 }, 100);
 
 function goto_tasks() {
-	location.replace("../RACK/tasks.html");
+	location.replace("tasks.html");
 }
 
 function changetime() {
