@@ -53,32 +53,32 @@ window.setInterval(function(){
 function start_task1() {
   console.log("hi");
   localStorage.setItem('started_task',t_1);
-  location.replace("task_running.html");
+  location.replace("../RACK/task_running.html");
 
 }
 function start_task2() {
   localStorage.setItem('started_task',t_2);
-  location.replace("task_running.html");
+  location.replace("../RACK/task_running.html");
 }
 function start_task3() {
   localStorage.setItem('started_task',t_3);
-  location.replace("task_running.html");
+  location.replace("../RACK/task_running.html");
 }
 function start_task4() {
   localStorage.setItem('started_task',t_4);
-  location.replace("task_running.html");
+  location.replace("../RACK/task_running.html");
 }
 function start_task5() {
   localStorage.setItem('started_task',t_5);
-  location.replace("task_running.html");
+  location.replace("../RACK/task_running.html");
 }
 function start_task6() {
   localStorage.setItem('started_task',t_6);
-  location.replace("task_running.html");
+  location.replace("../RACK/task_running.html");
 }
 
 function goto_tasks() {
-	location.replace("tasks.html");
+	location.replace("../RACK/tasks.html");
 }
 
 function changetime() {

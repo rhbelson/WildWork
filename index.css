@@ -1,6 +1,6 @@
  body {
   /*background: #fff url("../img/homeimg.jpg") repeat-x;*/
-  background: #fff url("homeimg2.jpg") no-repeat fixed center; 
+  background: #fff url("back_img.jpg") no-repeat fixed center; 
   background-size: cover;
  }
  
@@ -34,6 +34,7 @@
 
 
  #getstarted_box {
+ 	cursor: pointer;
  	position: relative;
  	color:green;
  	font-family: "Georgia", serif;
@@ -47,6 +48,8 @@
  	border-color:white;
  	width:fit-content;
  	left: 32%;
+ 	background: #8eabdb;
+ 	opacity: 0.7;
  }
 
 #getstarted_box:hover {

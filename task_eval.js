@@ -17,7 +17,7 @@ window.setInterval(function(){
 }, 100);
 
 function goto_tasks() {
-	location.replace("todolist.html");
+	location.replace("../RACK/todolist.html");
 }
 
 function changetime() {

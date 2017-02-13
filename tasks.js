@@ -60,7 +60,7 @@ function moveplus() {
 
 
 function cont() {
-    location.replace("designtasks.html");
+    location.replace("../RACK/designtasks.html");
 
 
 }

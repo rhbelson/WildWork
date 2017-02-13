@@ -44,7 +44,7 @@ function pad(val)
 
 
 function go_eval_task() {
-  location.replace("task_eval.html");
+  location.replace("../RACK/task_eval.html");
   localStorage.setItem('session_length',elapsed_time_string);
 }
 

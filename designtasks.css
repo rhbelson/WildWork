@@ -1,6 +1,6 @@
  body {
   /*background: #fff url("../img/homeimg.jpg") repeat-x;*/
-  background-image: url("homeimg2.jpg");
+  background-image: url("back_img.jpg");
   background-size: cover; 
   background-repeat:   no-repeat;
   background-position: center center;
@@ -61,15 +61,14 @@
 	height: 75px;
 }
 
-#input_box1, #input_box2, #input_box3, #input_box4{
-	top: -10px;
+#input_box1{
+	position: absolute;
+	top: 170px;
+	right: 1075px;
 	padding-right: 20px;
 	padding-left: 20px;
 	background: #c0c0c0;
 	font-size: 35px;
-  	position: relative;
-	float: left;
-	margin: auto;
 	font-family: "Georgia", serif;
 	color:black;
 	opacity: .7;
@@ -78,34 +77,79 @@
 	transform: translateX(50%);
 	height:fit-content;
 	width: 200px;
-
 }
+#input_box2{
+	position: absolute;
+	top: 270px;
+	right: 1075px;
+	padding-right: 20px;
+	padding-left: 20px;
+	background: #c0c0c0;
+	font-size: 35px;
+	font-family: "Georgia", serif;
+	color:black;
+	opacity: .7;
+	border-radius: 20px;
+	transform: translateY(180%);
+	transform: translateX(50%);
+	height:fit-content;
+	width: 200px;
+}
+#input_box3{
+	position: absolute;
+	top: 370px;
+	right: 1075px;
+	padding-right: 20px;
+	padding-left: 20px;
+	background: #c0c0c0;
+	font-size: 35px;
+	font-family: "Georgia", serif;
+	color:black;
+	opacity: .7;
+	border-radius: 20px;
+	transform: translateY(180%);
+	transform: translateX(50%);
+	height:fit-content;
+	width: 200px;
+}
+#input_box4{
+	position: absolute;
+	top: 470px;
+	right: 1075px;
+	padding-right: 20px;
+	padding-left: 20px;
+	background: #c0c0c0;
+	font-size: 35px;
+	font-family: "Georgia", serif;
+	color:black;
+	opacity: .7;
+	border-radius: 20px;
+	transform: translateY(180%);
+	transform: translateX(50%);
+	height:fit-content;
+	width: 200px;
+}
+
 #dropdown1 {
-    position: fixed;
+    position: absolute;
     top: 210px;
-    right: 800px;
+    right: 600px;
 }
 
 #dropdown2 {
-	position: fixed;
+	position: absolute;
 	top: 210px;
-	right: 600px;
+	right: 425px;
 }
 
 #scale{
-	position: fixed;
+	position: absolute;
 	top: 210px;
-	right: 200px;
+	right: 50px;
 	font-size: 20px;
 	color: white;
 	font-family: "Georgia", serif;
  	font-style: bold;
-}
-
-#calender_popup {
-	position: fixed;
-	top: 50px;
-	right: 100px;
 }
 
 
