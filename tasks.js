@@ -82,7 +82,9 @@ function cont() {
 
             e1.onclick = function(e) {
                 this.contentEditable = true;
+                document.getElementById('editable1').innerHTML="";
                 this.focus();
+
             }
 
             e1.onmouseout = function() {
@@ -96,6 +98,7 @@ function cont() {
             }
             e2.onclick = function(e) {
                 this.contentEditable = true;
+                document.getElementById('editable2').innerHTML="";
                 this.focus();
             }
 
@@ -107,6 +110,7 @@ function cont() {
             }
             e3.onclick = function(e) {
                 this.contentEditable = true;
+                document.getElementById('editable3').innerHTML="";
                 this.focus();
             }
 
@@ -118,6 +122,7 @@ function cont() {
             }
             e4.onclick = function(e) {
                 this.contentEditable = true;
+                document.getElementById('editable4').innerHTML="";
                 this.focus();
             }
 
@@ -129,6 +134,7 @@ function cont() {
             }
             e5.onclick = function(e) {
                 this.contentEditable = true;
+                document.getElementById('editable5').innerHTML="";
                 this.focus();
             }
 
@@ -140,6 +146,7 @@ function cont() {
             }
             e6.onclick = function(e) {
                 this.contentEditable = true;
+                document.getElementById('editable6').innerHTML="";
                 this.focus();
             }
 

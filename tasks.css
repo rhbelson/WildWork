@@ -54,6 +54,10 @@
  }
 
 
+#editable1, #editable2, #editable3, #editable4, #editable5, #editable6 {
+    color:#3f3f3f;
+}
+
  /*ol IF WE WANT TO GET RID OF ORDERING NUMBERS {
   list-style-type: none;
 }*/
