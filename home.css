@@ -5,7 +5,7 @@
  }
  
  #title_box {
- 	font-family: "Georgia", serif;
+ 	font-family: 'Noto Serif', serif;
  	font-style: italic;
  	text-shadow: 1px 1px #9BD5E6; 
  	font-size: 60px;
@@ -17,12 +17,13 @@
 
  #profile_box {
  	color:#000000; 	
+ 	cursor:pointer;
  }
 
 
  #getstarted_box {
  	color:green;
- 	font-family: "Georgia", serif;
+ 	font-family: 'Noto Serif', serif;
  	font-size: 50px;
  	font-style: bold;
  	text-shadow: 1px 1px; 

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<link type="text/css" rel="stylesheet" href="profile.css">
+<script src="profile.js"></script> 
+<html>
+<head>
+<title>Rack</title>
+</head>
+
+
+
+<body>
+
+	<div class= "title" id="title_box">
+	profile
+	</div>
+
+	<div id="profile_pic">
+	<img src="profile_pic.jpg" style="width:200px;height:200px;">
+	</div>
+
+	<div>
+		<form action="/action_page.php" id="text_form" >
+		<label for="fname"></label>
+			<input type="text" id="fname" name="firstname" placeholder="First Name">
+
+			<label for="lname"></label>
+			<input type="text" id="lname" name="lastname" placeholder="Last Name">
+
+			<label for="language"></label>
+			<select id="language" name="country">
+				<option value="Language">Language</option>
+				<option value="English">English</option>
+				<option value="Spanish">Spanish</option>
+			</select>
+
+			<input type="submit" id="save_changes" value="Save Profile Changes">
+		</form>
+	</div>
+
+</body>
+
+</html>

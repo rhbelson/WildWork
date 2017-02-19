@@ -16,6 +16,9 @@ window.onload=function() {
   tc.addEventListener("click",go_eval_task);
   set_time();
   console.log(elapsed_time_string);
+
+  var pbox=document.getElementById("probox");
+  pbox.addEventListener("click",goto_profile);
 }
 
 function set_time() {
@@ -144,5 +147,9 @@ function changetime() {
   document.getElementById("time").innerHTML=currentTimeString;
   document.getElementById("date").innerHTML=currentDateString;
 
+}
+
+function goto_profile() {
+  location.replace("profile.html");
 }
 

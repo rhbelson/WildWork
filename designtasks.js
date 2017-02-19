@@ -18,8 +18,15 @@
 
  	t_6=localStorage.getItem('t6');
  	document.getElementById('input_box6').innerHTML=t_6;
+
+ 	var pbox=document.getElementById("probox");
+ 	pbox.addEventListener("click",goto_profile);
  }
 
  function goto_todolist() {
  	location.replace("todolist.html");
  }
+
+ function goto_profile() {
+  location.replace("profile.html");
+}

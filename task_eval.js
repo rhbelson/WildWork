@@ -9,12 +9,19 @@ window.onload=function() {
   document.getElementById('taskName').innerHTML="Great job with: "+session_task;
   session_time=localStorage.getItem('session_length');
   document.getElementById('time-date').innerHTML=session_time;
+
+  var pbox=document.getElementById("probox");
+  pbox.addEventListener("click",goto_profile);
 }
 
 window.setInterval(function(){
   /// call your function here
   changetime();
 }, 100);
+
+function goto_profile() {
+  location.replace("profile.html");
+}
 
 function goto_tasks() {
 	location.replace("todolist.html");

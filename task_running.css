@@ -40,7 +40,8 @@
 
 
  #profile_box {
- 	color:#000000; 	
+ 	color:#000000;
+ 	cursor:pointer; 	
  }
 
  #current_task {

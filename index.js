@@ -1,11 +1,19 @@
 window.onload=function() {
   var start=document.getElementById("getstarted_box");
   start.addEventListener("click",goto_tasks);
+
+  var pbox=document.getElementById("probox");
+  pbox.addEventListener("click",goto_profile);
   /*var timebox=document.getElementById("time");
   timebox.addEventListener("click",changetime);*/
   changetime();
   localStorage.clear();
 }
+
+function goto_profile() {
+  location.replace("profile.html");
+}
+
 
 window.setInterval(function(){
   /// call your function here

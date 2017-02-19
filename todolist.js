@@ -5,7 +5,8 @@ window.onload=function() {
   timebox.addEventListener("click",changetime);*/
   changetime();
 
-
+  var pbox=document.getElementById("probox");
+  pbox.addEventListener("click",goto_profile);
   st1=document.getElementById('b1');
   st2=document.getElementById('b2');
   st3=document.getElementById('b3');
@@ -165,4 +166,8 @@ function changetime() {
   document.getElementById("time").innerHTML=currentTimeString;
   document.getElementById("date").innerHTML=currentDateString;
 
+}
+
+function goto_profile() {
+  location.replace("profile.html");
 }

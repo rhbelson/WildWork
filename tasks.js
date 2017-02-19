@@ -65,11 +65,17 @@ function cont() {
 
 }
 
+function goto_profile() {
+  location.replace("profile.html");
+}
 
 
  window.onload = function() {
             var continue_button=document.getElementById('continue_button');
             continue_button.addEventListener("click",cont);
+
+            var pbox=document.getElementById("probox");
+            pbox.addEventListener("click",goto_profile);
 
             var e1 = document.getElementById('editable1');
             var e2=document.getElementById('editable2');

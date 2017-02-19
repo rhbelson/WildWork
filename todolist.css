@@ -68,6 +68,7 @@ button {
 
  #profile_box {
  	color:#000000; 	
+ 	cursor:pointer;
  }
 
 #b1,#b2,#b3,#b4,#b5,#b6 {
