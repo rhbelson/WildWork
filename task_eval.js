@@ -10,7 +10,7 @@ window.onload=function() {
   session_time=localStorage.getItem('session_length');
   document.getElementById('time-date').innerHTML=session_time;
 
-  var pbox=document.getElementById("profile_box");
+  var pbox=document.getElementById("probox");
   pbox.addEventListener("click",goto_profile);
 }
 

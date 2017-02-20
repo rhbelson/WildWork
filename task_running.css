@@ -1,53 +1,57 @@
  body {
-  /*background: #fff url("../img/homeimg.jpg") repeat-x;*/
-  background: #fff url("back_img.jpg") no-repeat fixed center; 
+  background: #fff url("back_img.jpg") no-repeat fixed center;
+  background-size: cover;
  }
  
+#profile_box {
+    color:#000000; 
+    cursor:pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+ }
+
+ img{
+     border-radius: 50%;
+     width:100px;
+     height:100px;
+ }
+
  #date {
- 	margin-top:-80px;
- 	position:relative;
- 	font-family: "Georgia", serif;
+ 	margin-top:25px;
+ 	font-family: "proxima-nova";
  	font-style: italic;
  	text-shadow: 1px 1px #9BD5E6; 
  	font-size: 40px;
  	color: #E7F1F4;
- 	vertical-align: middle;
+ 	text-align: center;
  	left:28%;
- 	margin-bottom: 20px;
+ 	margin-bottom: 10px;
  }
 
-#elapsed_time {
-	font-family: "Georgia", serif;
- 	font-style: italic;
- 	color:black;
- 	position: relative;
- 	left:77%;
- 	top:-65px;
- 	color:white;
-}
-
  #time {
- 	position:relative;
- 	margin-top: -10px;
+ 	margin-bottom: 50px;
  	left:28%;
- 	font-family: "Georgia", serif;
+ 	font-family: "proxima-nova";
  	font-style: bold;
  	text-shadow: 1px 1px #9BD5E6; 
  	font-size: 40px;
  	color: #E7F1F4;
- 	vertical-align: middle;
+ 	text-align: center;
  }
 
+#elapsed_time {
+	font-family: "proxima-nova";
+ 	position: relative;
+ 	left:79%;
+ 	top:-65px;
+ 	color: red;
+}
 
- #profile_box {
- 	color:#000000;
- 	cursor:pointer; 	
- }
 
  #current_task {
  	margin-right: 40px;
  	position:relative;
- 	font-family: "Georgia", serif;
+ 	font-family: "proxima-nova";
  	font-style: italic;
  	text-shadow: 1px 1px #9BD5E6; 
  	font-size: 40px;
@@ -57,16 +61,24 @@
  }
 
 #task_complete {
-	left:78%;
- 	position:relative;
- 	font-family: "Georgia", serif;
- 	font-style: underline;
- 	font-size: 30px;
- 	color:green;
- 	top:-60px;
- 	cursor:pointer; 
- 	background: #c0c0c0;
- 	width:fit-content;
+	cursor: pointer;
+	position: absolute;
+    right:20px;
+    left:990px;
+    width: 15%;
+    top:225px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 20px;
+  padding: 14px;
+  border: none;
+  border-radius: 4px;
+  text-align:center;
+}
+
+#task_complete:hover {
+    background-color: white;
+    color: #4CAF50;
 }
 
 
@@ -75,14 +87,10 @@
  	position:relative;
  	left:85%;
  	top:-60px;
- 	font-family: "Georgia", serif;
- 	font-style: italic;
- 	text-shadow: 1px 1px #9BD5E6; 
+ 	font-family: "proxima-nova";
+ 	text-decoration: underline;
  	font-size: 30px;
  	color: #E7F1F4;
  	vertical-align: middle;
  }
-
-
-
 
