@@ -6,22 +6,27 @@
  	document.getElementById("due_date2").style.visibility = "hidden";
  	document.getElementById("due_date3").style.visibility = "hidden";
  	document.getElementById("due_date4").style.visibility = "hidden";
+ 	document.getElementById("due_date5").style.visibility = "hidden";
  	document.getElementById("input_box1").style.visibility = "hidden";
  	document.getElementById("input_box2").style.visibility = "hidden";
  	document.getElementById("input_box3").style.visibility = "hidden";
  	document.getElementById("input_box4").style.visibility = "hidden";
+ 	document.getElementById("input_box5").style.visibility = "hidden";
  	document.getElementById("cal1").style.visibility = "hidden";
  	document.getElementById("cal2").style.visibility = "hidden";
  	document.getElementById("cal3").style.visibility = "hidden";
  	document.getElementById("cal4").style.visibility = "hidden";
+ 	document.getElementById("cal5").style.visibility = "hidden";
  	document.getElementById("task_type1").style.visibility="hidden";
  	document.getElementById("task_type2").style.visibility="hidden";
  	document.getElementById("task_type3").style.visibility="hidden";
  	document.getElementById("task_type4").style.visibility="hidden";
+ 	document.getElementById("task_type5").style.visibility="hidden";
  	document.getElementById("scale1").style.visibility="hidden";
  	document.getElementById("scale2").style.visibility="hidden";
  	document.getElementById("scale3").style.visibility="hidden";
  	document.getElementById("scale4").style.visibility="hidden";
+ 	document.getElementById("scale5").style.visibility="hidden";
 
 
 
