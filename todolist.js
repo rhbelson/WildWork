@@ -5,7 +5,7 @@ window.onload=function() {
   timebox.addEventListener("click",changetime);*/
   changetime();
 
-  var pbox=document.getElementById("probox");
+  var pbox=document.getElementById("profile_box");
   pbox.addEventListener("click",goto_profile);
   st1=document.getElementById('b1');
   st2=document.getElementById('b2');
@@ -49,7 +49,7 @@ window.onload=function() {
   document.getElementById('input_box2').style.visibility="visible";
   document.getElementById('input_box2').innerHTML=t_2;
   document.getElementById('b2').style.visibility="visible";
-  document.getElementById("To-Do-List").style.height="175px";
+  document.getElementById("To-Do-List").style.height="225px";
 }
 
   t_3=localStorage.getItem('t3');
@@ -57,14 +57,14 @@ window.onload=function() {
   document.getElementById('input_box3').style.visibility="visible";
   document.getElementById('input_box3').innerHTML=t_3;
   document.getElementById('b3').style.visibility="visible";
-  document.getElementById("To-Do-List").style.height="250px";
+  document.getElementById("To-Do-List").style.height="350px";
 }
   t_4=localStorage.getItem('t4');
   if (t_4) {
   document.getElementById('input_box4').style.visibility="visible";
   document.getElementById('input_box4').innerHTML=t_4;
   document.getElementById('b4').style.visibility="visible";
-  document.getElementById("To-Do-List").style.height="325px";
+  document.getElementById("To-Do-List").style.height="475px";
   }
   
 
@@ -73,14 +73,14 @@ window.onload=function() {
   document.getElementById('input_box5').innerHTML=t_5;
   document.getElementById('input_box5').style.visibility="visible";
   document.getElementById('b5').style.visibility="visible";
-  document.getElementById("To-Do-List").style.height="400px";
+  document.getElementById("To-Do-List").style.height="600px";
 }
 
   t_6=localStorage.getItem('t6');
   if (t_6) {
   document.getElementById('input_box6').innerHTML=t_6;
   document.getElementById('input_box6').style.visibility="visible";
-  document.getElementById("To-Do-List").style.height="475px";
+  document.getElementById("To-Do-List").style.height="725px";
   document.getElementById('b6').style.visibility="visible";
 }
 

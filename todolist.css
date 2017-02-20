@@ -6,7 +6,7 @@
  #date {
  	margin-top: 10px;
  	position:relative;
- 	font-family: "Georgia", serif;
+ 	font-family: "proxima-nova";
  	font-style: italic;
  	text-shadow: 1px 1px #9BD5E6; 
  	font-size: 40px;
@@ -17,7 +17,7 @@
 
  #time {
  	position:relative;
- 	font-family: "Georgia", serif;
+ 	font-family: "proxima-nova";
  	font-style: bold;
  	text-shadow: 1px 1px #9BD5E6; 
  	font-size: 40px;
@@ -29,9 +29,9 @@
 
 ul {
 	list-style-type: square;
-	padding-right:20px;
+	padding-right:-20px;
 	background: #c6c5c8;
-	width: 450px;
+	width: 400px;
 	opacity: 0.8;
 	padding-bottom: 5px;
 	border-radius: 4px;	
@@ -39,8 +39,7 @@ ul {
 }
 li {
 	position: relative;
-	font-family: "Georgia", serif;
- 	font-style: italic;
+	font-family: "proxima-nova";
  	font-size: 25px;
  	left:2%;
  	margin-bottom: 20px;
@@ -51,30 +50,43 @@ li {
 h1 {
 	position: relative;
 	left: 4%;
-	font-family: "Georgia", serif;
+	font-family: "proxima-nova";
  	font-style: bold;
  	font-size: 30px;
- 	color:#c45e61;
+ 	color:red;
 
 }
 
 button {
 	font-size: 20px;
 	border-radius: 4px;
-	font-family: "Georgia", serif;
 	background: #c0c0c0;
 	color:green;
 }
 
- #profile_box {
- 	color:#000000; 	
- 	cursor:pointer;
+#profile_box {
+    color:#000000; 
+    cursor:pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+ }
+
+ img{
+     border-radius: 50%;
+     width:100px;
+     height:100px;
  }
 
 #b1,#b2,#b3,#b4,#b5,#b6 {
+	cursor:pointer;
 	position: relative;
 	left:60%;
 	top: -50px;
+  	padding: 10px;
+  	border-radius: 4px;
+ 	text-align:center;
+ 	background-color: #4CAF50;
+  	color: white;
 }
 
 
