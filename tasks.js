@@ -74,7 +74,7 @@ function goto_profile() {
             var continue_button=document.getElementById('continue_button');
             continue_button.addEventListener("click",cont);
 
-            var pbox=document.getElementById("probox");
+            var pbox=document.getElementById("profile_box");
             pbox.addEventListener("click",goto_profile);
 
             var e1 = document.getElementById('editable1');

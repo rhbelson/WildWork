@@ -19,7 +19,7 @@
  	t_6=localStorage.getItem('t6');
  	document.getElementById('input_box6').innerHTML=t_6;
 
- 	var pbox=document.getElementById("probox");
+ 	var pbox=document.getElementById("profile_box");
  	pbox.addEventListener("click",goto_profile);
  }
 
