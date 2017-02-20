@@ -2,34 +2,38 @@
   /*background: #fff url("../img/homeimg.jpg") repeat-x;*/
   background-image: url("back_img.jpg");
   background-size: cover; 
-  background-repeat:   no-repeat;
-  background-position: center center;
 
  }
  
  #title_box {
- 	position: relative;
- 	font-style: bold;
- 	font-size: 60px;
- 	text-align: center;
- 	top:-40px;
- 	font-style: italic;
- 	text-shadow: 1px 1px black; 
- 	color: #E7F1F4; 
- 	font-family: 'Libre Baskerville'; font-size: 64px; font-weight: 700; line-height: 64px; margin: 0 0 0; padding: 20px 30px; text-align: center; text-transform: uppercase;  
+ 	text-align:center;
+    left: 15%;
+ 	vertical-align: middle;
+    font-family: "proxima-nova";
+    font-style: bold;
+    font-size: 50px;
+    color: #E7F1F4; 
  	}
 
 
 
- #profile_box {
- 	color:#000000; 	
- 	cursor:pointer;
+#profile_box {
+    color:#000000; 
+    cursor:pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+ }
+
+ img{
+     border-radius: 50%;
+     width:100px;
+     height:100px;
  }
 
 
  #getstarted_box {
  	color:green;
- 	font-family: "Georgia", serif;
+ 	font-family: "proxima-nova", serif;
  	font-size: 50px;
  	font-style: bold;
  	text-shadow: 1px 1px; 
@@ -69,8 +73,8 @@
 	padding-right: 20px;
 	padding-left: 20px;
 	background: #c0c0c0;
-	font-size: 35px;
-	font-family: "Georgia", serif;
+	font-size: 25px;
+	font-family: "proxima-nova", serif;
 	color:black;
 	opacity: .7;
 	border-radius: 20px;
@@ -86,8 +90,8 @@
 	padding-right: 20px;
 	padding-left: 20px;
 	background: #c0c0c0;
-	font-size: 35px;
-	font-family: "Georgia", serif;
+	font-size: 25px;
+	font-family: "proxima-nova", serif;
 	color:black;
 	opacity: .7;
 	border-radius: 20px;
@@ -103,8 +107,8 @@
 	padding-right: 20px;
 	padding-left: 20px;
 	background: #c0c0c0;
-	font-size: 35px;
-	font-family: "Georgia", serif;
+	font-size: 25px;
+	font-family: "proxima-nova", serif;
 	color:black;
 	opacity: .7;
 	border-radius: 20px;
@@ -120,8 +124,8 @@
 	padding-right: 20px;
 	padding-left: 20px;
 	background: #c0c0c0;
-	font-size: 35px;
-	font-family: "Georgia", serif;
+	font-size: 25px;
+	font-family: "proxima-nova", serif;
 	color:black;
 	opacity: .7;
 	border-radius: 20px;
@@ -143,31 +147,68 @@
 	right: 425px;
 }
 
-#scale{
+#scale1{
 	position: absolute;
 	top: 210px;
 	right: 50px;
 	font-size: 20px;
 	color: white;
-	font-family: "Georgia", serif;
+	font-family: "proxima-nova", serif;
  	font-style: bold;
+}
+#scale2{
+	position: absolute;
+	top: 210px;
+	right: 50px;
+	font-size: 20px;
+	color: white;
+	font-family: "proxima-nova", serif;
+ 	font-style: bold;
+ 	margin-top: 100px;
+}
+#scale3{
+	position: absolute;
+	top: 210px;
+	right: 50px;
+	font-size: 20px;
+	color: white;
+	font-family: "proxima-nova", serif;
+ 	font-style: bold;
+ 	margin-top: 200px;
+}
+#scale4{
+	position: absolute;
+	top: 210px;
+	right: 50px;
+	font-size: 20px;
+	color: white;
+	font-family: "proxima-nova", serif;
+ 	font-style: bold;
+ 	margin-top: 300px;
 }
 
 
 
+
+
 #continue_button {
-	cursor: pointer;
-    position: relative;
-    font-size: 38px;
-    font-family: "Georgia", serif;
-    font-style: bold;
-    border: solid;
-    width: fit-content;
-    left:65%;
-    border-color: green;
-    color:green;
-    background: #8eabdb;
-    border-radius: 10px;
-    opacity: 0.7;
+    cursor: pointer;
+    position: absolute;
+    right:20px;
+    width: 30%;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 30px;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
+  text-align:center;
+
+
+}
+
+#continue_button:hover {
+    background-color: white;
+    color: #4CAF50;
 }
 
