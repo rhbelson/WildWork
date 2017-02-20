@@ -1,8 +1,8 @@
 window.onload=function() {
-  var start=document.getElementById("getstarted_box");
+  var start=document.getElementById("getstarted_button");
   start.addEventListener("click",goto_tasks);
 
-  var pbox=document.getElementById("probox");
+  var pbox=document.getElementById("profile_box");
   pbox.addEventListener("click",goto_profile);
   /*var timebox=document.getElementById("time");
   timebox.addEventListener("click",changetime);*/
