@@ -20,8 +20,8 @@
 
 
 <body>
-	<div id="profile_box" class="probox">
-		<img src="profile.png" style="width:100px;height:100px;">
+	<div class="probox">
+		<img id="profile_box" src="profile.png" style="width:100px;height:100px;">
 	</div>
 
 	<div class= "title" id="title_box">
@@ -40,47 +40,47 @@
 
 <div id= "dropdown1">
 <form >
-  <select name="dropdown1">
+  <select id= "due_date1" name="dropdown1">
     <option value="Select Due Date">Select Due Date</option>
     <option value="no due date">No Due Date</option>
     <option value="calendar">Choose with Calendar</option>
     <option value="daily">Daily</option>
     <option value="weekly">Weekly</option>
   </select>
-  <input type="date" />
+  <input id="cal1" type="date" />
 
   <br><br>
   <div id="spacer2"> </div>
-  <select name="dropdown1">
+  <select id= "due_date2" name="dropdown1">
     <option value="Select Due Date">Select Due Date</option>
     <option value="no due date">No Due Date</option>
     <option value="calendar">Choose with Calendar</option>
     <option value="daily">Daily</option>
     <option value="weekly">Weekly</option>
   </select>
-    <input type="date" />
+    <input id="cal2" type="date" />
 
    <br><br>
   <div id="spacer2"> </div>
-   <select name="dropdown1">
+   <select id= "due_date3"  name="dropdown1">
     <option value="Select Due Date">Select Due Date</option>
     <option value="no due date">No Due Date</option>
     <option value="calendar">Choose with Calendar</option>
     <option value="daily">Daily</option>
     <option value="weekly">Weekly</option>
   </select>
-    <input type="date" />
+    <input id="cal3" type="date" />
 
   <br><br>
   <div id="spacer2"> </div>
-  <select name="dropdown1">
+  <select  id= "due_date4" name="dropdown1">
     <option value="Select Due Date">Select Due Date</option>
     <option value="no due date">No Due Date</option>
     <option value="calendar">Choose with Calendar</option>
     <option value="daily">Daily</option>
     <option value="weekly">Weekly</option>
   </select>
-    <input type="date" />
+    <input id="cal4" type="date" />
 
   <br><br>
 </form>
@@ -88,7 +88,7 @@
 
 <div id= "dropdown2">
 <form >
-  <select name="dropdown2">
+  <select id="task_type1" name="dropdown2">
     <option value="Task Type">Task Type</option>
     <option value="school">School</option>
     <option value="work">Work</option>
@@ -96,8 +96,9 @@
     <option value="other">Other</option>
   </select>
   <br><br>
+
   <div id="spacer2"> </div>
-  <select name="dropdown2">
+  <select id="task_type2" name="dropdown2">
     <option value="Task Type">Task Type</option>
     <option value="school">School</option>
     <option value="work">Work</option>
@@ -105,8 +106,9 @@
     <option value="other">Other</option>
   </select>
    <br><br>
+
   <div id="spacer2"> </div>
-   <select name="dropdown2">
+   <select id="task_type3" name="dropdown2">
    <option value="Task Type">Task Type</option>
     <option value="school">School</option>
     <option value="work">Work</option>
@@ -114,8 +116,9 @@
     <option value="other">Other</option>
   </select>
   <br><br>
+
   <div id="spacer2"> </div>
-  <select name="dropdown2">
+  <select id="task_type4" name="dropdown2">
     <option value="Task Type">Task Type</option>
     <option value="school">School</option>
     <option value="work">Work</option>
@@ -127,20 +130,32 @@
 </div>
 
 <div id= "scale">
+<div id="completeness_1">
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">Incomplete
+<input   type="range" id="a" value="50">Complete
+</form>
+</div>
+
+
+<div id="spacer3"> </div>
+
+<div id="completeness_2">
 <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">Incomplete
 <input type="range" id="a" value="50">Complete
 </form>
+</div>
+
+
 <div id="spacer3"> </div>
-<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">Incomplete
+
+<form id="completeness_3" oninput="x.value=parseInt(a.value)+parseInt(b.value)">Incomplete
 <input type="range" id="a" value="50">Complete
 </form>
+
 <div id="spacer3"> </div>
-<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">Incomplete
-<input type="range" id="a" value="50">Complete
-</form>
-<div id="spacer3"> </div>
-<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">Incomplete
-<input type="range" id="a" value="50">Complete
+
+<form id="completeness_4" oninput="x.value=parseInt(a.value)+parseInt(b.value)">Incomplete
+<input  type="range" id="a" value="50">Complete
 </form>
 </div>
 
