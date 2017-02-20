@@ -4,26 +4,27 @@
   background-size: cover;
  }
  
+
+
  #tasks_title{
  	margin-top: 25px;
  	position:relative;
     left: 15%;
- 	font-family: "Georgia", serif;
- 	font-size: 50px;
- 	font-style: normal;
- 	font-weight: normal;
- 	color: #ed8993;
  	vertical-align: middle;
+    font-family: "proxima-nova";
+    font-style: bold;
+    font-size: 50px;
+    color: #E7F1F4;
  }
 
 
  #plusbutton {
  	position:absolute;
  	left:30%;
- 	font-family: "Georgia", serif;
+ 	font-family: "proxima-nova";
  	font-style: bold;
  	text-align: center;
- 	margin-top: 240px;
+ 	margin-top: 250px;
  	cursor: pointer;
  }
 
@@ -32,7 +33,7 @@
 
  #time {
  	position:relative;
- 	font-family: "Georgia", serif;
+ 	font-family: "proxima-nova";
  	font-style: bold;
  	text-shadow: 1px 1px #9BD5E6; 
  	font-size: 130px;
@@ -43,10 +44,17 @@
 
 
  #profile_box {
- 	color:#000000;
-    cursor:pointer; 	
+    color:#000000; 
+    cursor:pointer;
+    margin-top: 10px;
+    margin-right: 10px;
  }
 
+ img{
+     border-radius: 50%;
+     width:100px;
+     height:100px;
+ }
 
 
 
@@ -69,7 +77,7 @@ li {
 	color: black;
  	padding-top: 20px;
  	padding-bottom:30px;
- 	font-family: "Georgia", serif;
+ 	font-family: "Arial";
     font-style: bold;
  	font-style: bold;
  	text-align: left;
@@ -93,7 +101,7 @@ li {
     cursor: pointer;
     position: relative;
     font-size: 18px;
-    font-family: "Georgia", serif;
+    font-family: "proxima-nova";
     font-style: bold;
     transition: 0.4s;
     -webkit-user-select: none;
@@ -115,16 +123,21 @@ ol li:hover {
 }
 
 #continue_button {
-	cursor: pointer;
-    position: relative;
-    font-size: 38px;
-    font-family: "Georgia", serif;
-    font-style: bold;
-    border: solid;
-    width: fit-content;
-    left:80%;
-    border-color: green;
-    color:green;
-    background: #c0c0c0;
-    opacity: 0.8;
+    cursor: pointer;
+    position: absolute;
+    right:20px;
+    width: 20%;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 30px;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
+  text-align:center;
+
+}
+
+#continue_button:hover {
+    background-color: white;
+    color: #4CAF50;
 }
