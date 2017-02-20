@@ -7,14 +7,20 @@
  
  #title_box {
  	text-align:center;
-    left: 15%;
  	vertical-align: middle;
     font-family: "proxima-nova";
     font-style: bold;
     font-size: 50px;
     color: #E7F1F4; 
+    position: relative;
+    top:-50px;
  	}
 
+
+#due_date1,#due_date2,#due_date3,#due_date4,#due_date5 {
+	position: relative;
+	top:-40px;
+}
 
 
 #profile_box {
@@ -55,20 +61,47 @@
 }
 
 #spacer {
-	height: 80px;
+	height: 100px;
 }
 
 #spacer2{
-	height: 60px;
+	height: 50px;
 }
 
 #spacer3{
-	height: 75px;
+	height: 65px;
+}
+
+
+#cal1,#cal2,#cal3,#cal4,#cal5 {
+	position: relative;
+	top:-40px;
+	left:30px;
+}
+
+#task_type1,#task_type2,#task_type3,#task_type4,#task_type5 {
+	position: relative;
+	left:30px;
+}
+#task_type1 {
+	top:-40px;
+}
+#task_type2 {
+	top:-35px;
+}
+#task_type3 {
+	top:-30px;
+}
+#task_type4 {
+	top:-30px;
+}
+#task_type5 {
+	top:-30px;
 }
 
 #input_box1{
 	position: absolute;
-	top: 170px;
+	top: 140px;
 	right: 1075px;
 	padding-right: 20px;
 	padding-left: 20px;
@@ -85,7 +118,7 @@
 }
 #input_box2{
 	position: absolute;
-	top: 270px;
+	top: 230px;
 	right: 1075px;
 	padding-right: 20px;
 	padding-left: 20px;
@@ -102,7 +135,7 @@
 }
 #input_box3{
 	position: absolute;
-	top: 370px;
+	top: 320px;
 	right: 1075px;
 	padding-right: 20px;
 	padding-left: 20px;
@@ -119,7 +152,24 @@
 }
 #input_box4{
 	position: absolute;
-	top: 470px;
+	top: 410px;
+	right: 1075px;
+	padding-right: 20px;
+	padding-left: 20px;
+	background: #c0c0c0;
+	font-size: 25px;
+	font-family: "proxima-nova", serif;
+	color:black;
+	opacity: .7;
+	border-radius: 20px;
+	transform: translateY(180%);
+	transform: translateX(50%);
+	height:fit-content;
+	width: 200px;
+}
+#input_box5{
+	position: absolute;
+	top: 500px;
 	right: 1075px;
 	padding-right: 20px;
 	padding-left: 20px;
@@ -149,7 +199,7 @@
 
 #scale1{
 	position: absolute;
-	top: 210px;
+	top: 170px;
 	right: 50px;
 	font-size: 20px;
 	color: white;
@@ -158,33 +208,44 @@
 }
 #scale2{
 	position: absolute;
-	top: 210px;
+	top: 190px;
 	right: 50px;
 	font-size: 20px;
 	color: white;
 	font-family: "proxima-nova", serif;
  	font-style: bold;
- 	margin-top: 100px;
+ 	margin-top: 70px;
 }
 #scale3{
 	position: absolute;
-	top: 210px;
+	top: 200px;
 	right: 50px;
 	font-size: 20px;
 	color: white;
 	font-family: "proxima-nova", serif;
  	font-style: bold;
- 	margin-top: 200px;
+ 	margin-top: 150px;
 }
 #scale4{
 	position: absolute;
-	top: 210px;
+	top: 190px;
 	right: 50px;
 	font-size: 20px;
 	color: white;
 	font-family: "proxima-nova", serif;
  	font-style: bold;
- 	margin-top: 300px;
+ 	margin-top: 250px;
+}
+
+#scale5{
+	position: absolute;
+	top: 175px;
+	right: 50px;
+	font-size: 20px;
+	color: white;
+	font-family: "proxima-nova", serif;
+ 	font-style: bold;
+ 	margin-top: 350px;
 }
 
 
@@ -196,6 +257,7 @@
     position: absolute;
     right:20px;
     width: 30%;
+    bottom:-8%;
   background-color: #4CAF50;
   color: white;
   font-size: 30px;
@@ -211,4 +273,6 @@
     background-color: white;
     color: #4CAF50;
 }
+
+
 

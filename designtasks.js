@@ -18,10 +18,10 @@
  	document.getElementById("task_type2").style.visibility="hidden";
  	document.getElementById("task_type3").style.visibility="hidden";
  	document.getElementById("task_type4").style.visibility="hidden";
- 	/*document.getElementById("completeness1").style.visibility="hidden";
- 	document.getElementById("completeness2").style.visibility="hidden";
- 	document.getElementById("completeness3").style.visibility="hidden";
- 	document.getElementById("completeness4").style.visibility="hidden";*/
+ 	document.getElementById("scale1").style.visibility="hidden";
+ 	document.getElementById("scale2").style.visibility="hidden";
+ 	document.getElementById("scale3").style.visibility="hidden";
+ 	document.getElementById("scale4").style.visibility="hidden";
 
 
 
@@ -34,6 +34,7 @@
  	document.getElementById("due_date1").style.visibility = "visible";
  	document.getElementById("cal1").style.visibility = "visible";
  	document.getElementById("task_type1").style.visibility="visible";
+ 	document.getElementById("scale1").style.visibility="visible";
  }
  
  	t_2=localStorage.getItem('t2');
@@ -43,6 +44,7 @@
  	document.getElementById("due_date2").style.visibility = "visible";
  	document.getElementById("cal2").style.visibility = "visible";
  	document.getElementById("task_type2").style.visibility="visible";
+ 	document.getElementById("scale2").style.visibility="visible";
 }
 	t_3=localStorage.getItem('t3');
 	if (t_3) {
@@ -51,6 +53,7 @@
  	document.getElementById("due_date3").style.visibility = "visible";
  	document.getElementById("cal3").style.visibility = "visible";
  	document.getElementById("task_type3").style.visibility="visible";
+ 	document.getElementById("scale3").style.visibility="visible";
 }
 	t_4=localStorage.getItem('t4');
 	if (t_4) {
@@ -59,10 +62,16 @@
  	document.getElementById("due_date4").style.visibility = "visible";
  	document.getElementById("cal4").style.visibility = "visible";
  	document.getElementById("task_type4").style.visibility="visible";
+ 	document.getElementById("scale4").style.visibility="visible";
 }
  	t_5=localStorage.getItem('t5');
  	if (t_5) {
+ 	document.getElementById("input_box5").style.visibility = "visible";
  	document.getElementById('input_box5').innerHTML=t_5;
+ 	document.getElementById("due_date5").style.visibility = "visible";
+ 	document.getElementById("cal5").style.visibility = "visible";
+ 	document.getElementById("task_type5").style.visibility="visible";
+ 	document.getElementById("scale5").style.visibility="visible";
  }
 
  	t_6=localStorage.getItem('t6');
