@@ -38,6 +38,8 @@
   <h2 id="input_box4" disabled="disabled">Task #4</h2><br>
   <div id="spacer"> </div>
   <h2 id="input_box5" disabled="disabled">Task #5</h2><br>
+  <div id="spacer"> </div>
+  <h2 id="input_box6" disabled="disabled">Task #6</h2><br>
 </form>
 
 <div id= "dropdown1">
@@ -95,6 +97,17 @@
   </select>
     <input id="cal5" type="date" />
 
+    <br><br>
+  <div id="spacer2"> </div>
+  <select  id= "due_date6" name="dropdown1">
+    <option value="Select Due Date">Select Due Date</option>
+    <option value="no due date">No Due Date</option>
+    <option value="calendar">Choose with Calendar</option>
+    <option value="daily">Daily</option>
+    <option value="weekly">Weekly</option>
+  </select>
+    <input id="cal6" type="date" />
+
   <br><br>
 </form>
 </div>
@@ -150,6 +163,16 @@
   </select>
   <br><br>
 
+  <div id="spacer2"> </div>
+   <select id="task_type6" name="dropdown2">
+   <option value="Task Type">Task Type</option>
+    <option value="school">School</option>
+    <option value="work">Work</option>
+    <option value="extracurricular">Extracurricular</option>
+    <option value="other">Other</option>
+  </select>
+  <br><br>
+
 </form>
 </div>
 
@@ -178,6 +201,12 @@
   </div>
 
 <div id="scale5">
+  Incomplete
+  <input type="range" min="0" max="50" value="25" step="5" />
+  Complete
+  </div>
+
+<div id="scale6">
   Incomplete
   <input type="range" min="0" max="50" value="25" step="5" />
   Complete
