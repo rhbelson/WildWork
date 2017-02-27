@@ -1,5 +1,6 @@
 window.onload=function() {
   var start=document.getElementById("getstarted_button");
+  console.log("You have "+ localStorage.getItem('num_tasks'));
   start.addEventListener("click",goto_tasks);
 
   var pbox=document.getElementById("profile_box");

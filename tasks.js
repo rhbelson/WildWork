@@ -15,7 +15,18 @@ function moveplus() {
     but2=but2.concat(String(numtask));
     var list=document.getElementById('my_tasks_list');
     var style4=list.currentStyle || window.getComputedStyle(list);
+    
 
+    var nt=localStorage.getItem('num_tasks');
+    if (nt==null) {
+        localStorage.setItem('num_tasks',2);
+        console.log("You have 2 tasks");
+    }
+
+    else { 
+        localStorage.setItem('num_tasks',parseInt(nt)+parseInt(1));
+        console.log("You have "+ (localStorage.getItem('num_tasks'))+"tasks");
+    }
 
 
     if(numtask<6) {
