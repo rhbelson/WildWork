@@ -89,5 +89,26 @@ button {
   	color: white;
 }
 
+#new_task {
+	cursor:pointer;
+	position: relative;
+  	padding: 10px;
+  	border-radius: 4px;
+ 	text-align:center;
+ 	background-color: #4CAF50;
+  	color: white;
+  	left:57%;
+	top: -30px;
+}
 
 
+#todolist_title {
+	list-style-type: none;
+	position: relative;
+	left: 0%;
+	font-family: "proxima-nova";
+ 	font-style: bold;
+ 	font-size: 30px;
+ 	top:25px;
+ 	color:red;
+}

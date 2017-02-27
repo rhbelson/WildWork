@@ -71,95 +71,136 @@ function goto_profile() {
 
 
  window.onload = function() {
-            var continue_button=document.getElementById('continue_button');
-            continue_button.addEventListener("click",cont);
+    var continue_button=document.getElementById('continue_button');
+    continue_button.addEventListener("click",cont);
 
-            var pbox=document.getElementById("profile_box");
-            pbox.addEventListener("click",goto_profile);
+    var pbox=document.getElementById("profile_box");
+    pbox.addEventListener("click",goto_profile);
 
-            var e1 = document.getElementById('editable1');
-            var e2=document.getElementById('editable2');
-            var e3=document.getElementById('editable3');
-            var e4=document.getElementById('editable4');
-            var e5=document.getElementById('editable5');
-            var e6=document.getElementById('editable6');
-            var p=document.getElementById('plusbutton');
-            p.addEventListener("click",moveplus);
+    var e1 = document.getElementById('editable1');
+    var e2=document.getElementById('editable2');
+    var e3=document.getElementById('editable3');
+    var e4=document.getElementById('editable4');
+    var e5=document.getElementById('editable5');
+    var e6=document.getElementById('editable6');
+    var p=document.getElementById('plusbutton');
+    p.addEventListener("click",moveplus);
 
-            e1.onclick = function(e) {
-                this.contentEditable = true;
-                document.getElementById('editable1').innerHTML="";
-                this.focus();
+    e1.onclick = function(e) {
+        this.contentEditable = true;
+        document.getElementById('editable1').innerHTML="";
+        this.focus();
 
-            }
+    }
 
-            e1.onmouseout = function() {
-                this.style.border = '';
-                this.contentEditable = false;
-                task1=document.getElementById('editable1').innerHTML; 
-                localStorage.setItem('t1', task1);
-                //document.getElementById("e2").style.opacity=0.8;
-                //document.getElementById("e2").style.backgroundColor="rgb(c0,c0,c0)";
-           		
-            }
-            e2.onclick = function(e) {
-                this.contentEditable = true;
-                document.getElementById('editable2').innerHTML="";
-                this.focus();
-            }
+    e1.onmouseout = function() {
+        this.style.border = '';
+        this.contentEditable = false;
+        task1=document.getElementById('editable1').innerHTML; 
+        localStorage.setItem('t1', task1);
+        //document.getElementById("e2").style.opacity=0.8;
+        //document.getElementById("e2").style.backgroundColor="rgb(c0,c0,c0)";
+   		
+    }
+    e2.onclick = function(e) {
+        this.contentEditable = true;
+        document.getElementById('editable2').innerHTML="";
+        this.focus();
+    }
 
-            e2.onmouseout = function() {
-                this.style.border = '';
-                this.contentEditable = false;
-                task2=document.getElementById('editable2').innerHTML;
-                localStorage.setItem('t2', task2);
-            }
-            e3.onclick = function(e) {
-                this.contentEditable = true;
-                document.getElementById('editable3').innerHTML="";
-                this.focus();
-            }
+    e2.onmouseout = function() {
+        this.style.border = '';
+        this.contentEditable = false;
+        task2=document.getElementById('editable2').innerHTML;
+        localStorage.setItem('t2', task2);
+    }
+    e3.onclick = function(e) {
+        this.contentEditable = true;
+        document.getElementById('editable3').innerHTML="";
+        this.focus();
+    }
 
-            e3.onmouseout = function() {
-                this.style.border = '';
-                this.contentEditable = false;
-                task3=document.getElementById('editable3').innerHTML;
-                localStorage.setItem('t3', task3);
-            }
-            e4.onclick = function(e) {
-                this.contentEditable = true;
-                document.getElementById('editable4').innerHTML="";
-                this.focus();
-            }
+    e3.onmouseout = function() {
+        this.style.border = '';
+        this.contentEditable = false;
+        task3=document.getElementById('editable3').innerHTML;
+        localStorage.setItem('t3', task3);
+    }
+    e4.onclick = function(e) {
+        this.contentEditable = true;
+        document.getElementById('editable4').innerHTML="";
+        this.focus();
+    }
 
-            e4.onmouseout = function() {
-                this.style.border = '';
-                this.contentEditable = false;
-                task4=document.getElementById("editable4").innerHTML;
-                localStorage.setItem('t4', task4);
-            }
-            e5.onclick = function(e) {
-                this.contentEditable = true;
-                document.getElementById('editable5').innerHTML="";
-                this.focus();
-            }
+    e4.onmouseout = function() {
+        this.style.border = '';
+        this.contentEditable = false;
+        task4=document.getElementById("editable4").innerHTML;
+        localStorage.setItem('t4', task4);
+    }
+    e5.onclick = function(e) {
+        this.contentEditable = true;
+        document.getElementById('editable5').innerHTML="";
+        this.focus();
+    }
 
-            e5.onmouseout = function() {
-                this.style.border = '';
-                this.contentEditable = false;
-                task5=document.getElementById("editable5").innerHTML;
-                localStorage.setItem('t5', task5);
-            }
-            e6.onclick = function(e) {
-                this.contentEditable = true;
-                document.getElementById('editable6').innerHTML="";
-                this.focus();
-            }
+    e5.onmouseout = function() {
+        this.style.border = '';
+        this.contentEditable = false;
+        task5=document.getElementById("editable5").innerHTML;
+        localStorage.setItem('t5', task5);
+    }
+    e6.onclick = function(e) {
+        this.contentEditable = true;
+        document.getElementById('editable6').innerHTML="";
+        this.focus();
+    }
 
-            e6.onmouseout = function() {
-                this.style.border = '';
-                this.contentEditable = false;
-                task6=document.getElementById("editable6").innerHTML;
-                localStorage.setItem('t6', task6);
-            }
+    e6.onmouseout = function() {
+        this.style.border = '';
+        this.contentEditable = false;
+        task6=document.getElementById("editable6").innerHTML;
+        localStorage.setItem('t6', task6);
+    }
+
+
+
+
+    t_1=localStorage.getItem('t1');
+    if (t_1) {
+        document.getElementById("editable1").innerHTML=t_1;
+        document.getElementById("editable1").style.visibility="visible";
+    }
+    t_2=localStorage.getItem('t2');
+    if (t_2) {
+        document.getElementById("editable2").innerHTML=t_2;
+        document.getElementById("editable2").style.visibility="visible";
+        moveplus();
+    }
+    t_3=localStorage.getItem('t3');
+    if (t_3) {
+        document.getElementById("editable3").innerHTML=t_3;
+        document.getElementById("editable3").style.visibility="visible";
+        moveplus();
+    }
+    t_4=localStorage.getItem('t4');
+    if (t_4) {
+        document.getElementById("editable4").innerHTML=t_4;
+        document.getElementById("editable4").style.visibility="visible";
+        moveplus();
+    }
+    t_5=localStorage.getItem('t5');
+    if (t_5) {
+        document.getElementById("editable5").innerHTML=t_5;
+        document.getElementById("editable5").style.visibility="visible";
+        moveplus();
+    }
+    t_6=localStorage.getItem('t6');
+    if (t_6) {
+        document.getElementById("editable6").innerHTML=t_6;
+        document.getElementById("editable6").style.visibility="visible";
+        moveplus();
+    }
+
+
         }

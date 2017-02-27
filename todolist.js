@@ -5,6 +5,11 @@ window.onload=function() {
   timebox.addEventListener("click",changetime);*/
   changetime();
 
+
+  var add_newtask=document.getElementById("new_task");
+  add_newtask.addEventListener("click",add_new_tasks);
+
+
   var pbox=document.getElementById("profile_box");
   pbox.addEventListener("click",goto_profile);
   st1=document.getElementById('b1');
@@ -126,6 +131,12 @@ function start_task6() {
 function goto_tasks() {
 	location.replace("tasks.html");
 }
+
+
+function add_new_tasks() {
+  location.replace("tasks.html");
+}
+
 
 function changetime() {
   var now = new Date().getTimezoneOffset(300);
