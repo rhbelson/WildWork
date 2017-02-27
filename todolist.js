@@ -87,6 +87,7 @@ window.onload=function() {
   document.getElementById('input_box6').style.visibility="visible";
   document.getElementById("To-Do-List").style.height="725px";
   document.getElementById('b6').style.visibility="visible";
+  document.getElementById('new_task').style.visibility="hidden";
 }
 
 }
