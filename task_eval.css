@@ -1,54 +1,63 @@
  body {
   /*background: #fff url("../img/homeimg.jpg") repeat-x;*/
-  background: #fff url("back_img.jpg") no-repeat fixed center;
+  background: white;
   background-size: cover; 
  }
- 
+
+ #navbar-header{
+  font-family: "Arial-black";
+  color: #7339ac;
+ }
+
  #title_box {
- 	font-family: "proxima-nova";
- 	font-style: italic;
- 	text-shadow: 1px 1px #9BD5E6; 
- 	font-size: 60px;
- 	text-align: center;
- 	margin-top: 20px;
- 	color: #E7F1F4;
+  font-family: "Arial"; 
+    font-size: 65px;
+    display:block;
+    line-height: 1em;
+    text-align: center;
+    color: #a6a6a6;
+    font-style: normal;
+ 	
  }
 
- 
-#profile_box {
-    color:#000000; 
-    cursor:pointer;
+ #rcorners {
+    border-radius: 25px;
+    border: 3px solid #a6a6a6;
+    background-color: #f2f2f2;
+    padding: 20px; 
+    width: 565px;
+    height: 400px;
+    margin: auto;  
     margin-top: 10px;
-    margin-right: 10px;
- }
+}
 
- img{
-     border-radius: 50%;
-     width:100px;
-     height:100px;
- }
+#great{
+  font-family: "Arial";
+  font-size: 25px;
+  color: #a6a6a6;
+  text-align: center;
+  margin-top: 20px;
+}
 
-
- #taskName{
- 	font-family: "proxima-nova";
+ #session_task{
+ 	font-family: "Arial";
  	font-size: 25px;
- 	color: white;
+ 	color: #80b3ff;
  	text-align: center;
- 	margin-top: 30px;
  }
 
 #timeSpent{
-	font-family: "proxima-nova";
+	font-family: "Arial";
  	font-size: 25px;
- 	color: white;
+ 	color: #a6a6a6;
  	text-align: center;
  	margin-top: 30px;
  }
 
 #time-date{
-	font-family: "proxima-nova";
+	font-family: "Arial";
  	font-size: 25px;
- 	color: red;
+ 	color: #80b3ff;
  	text-align: center;
  	margin-top: 30px;
  	padding: 5px;
@@ -56,54 +65,73 @@
 
 #scale{
     position: absolute;
-    left: 0;
-    top: 360px;
-    width: 100%;
-    text-align: center;
-	color: white;
-	font-family: "proxima-nova";
+    left: 39.5%;
+    top: 350px;
+    width: 250px;
+	color: #80b3ff;
+	font-family: "Arial";
  	font-size: 25px;
 }
 
+#incomp{
+  position: absolute;
+  left: -130px;
+  top: -12px;
+  color: #7339ac;
+  font-family: "Arial";
+  font-size: 25px;
+}
+
+#comp{
+  position: absolute;
+  left: 260px;
+  top: -12px;
+  color: #7339ac;
+  font-family: "Arial";
+  font-size: 25px;
+}
+
 #completeness{
-	font-family: "proxima-nova";
+	font-family: "Arial";
  	font-size: 15px;
- 	color: black;
+ 	color: #a6a6a6;
  	text-align: center;
  	margin-top: 20px;
 }
 
 #distract{
-	font-family: "proxima-nova";
+	font-family: "Arial";
  	font-size: 25px;
- 	color: yellow;
+ 	color: #a6a6a6;
  	text-align: center;
- 	margin-top: 55px;
+  left: 20px;
+ 	margin-top: 75px;
 }
 
 #links{
+  font-family:"Arial";
 	text-align: center;
+ 
 	padding-top: 5px;
-    color:#ffffff;
+    color:#80b3ff;
 }
 
 #done {
     cursor: pointer;
     position: absolute;
     right:20px;
+    bottom: 15px;
     width: 15%;
-  background-color: #4CAF50;
+  background-color: #0052cc;
   color: white;
   font-size: 30px;
   padding: 14px 20px;
   border: none;
   border-radius: 4px;
   text-align:center;
-
-
 }
 
 #done:hover {
-    background-color: white;
-    color: #4CAF50;
+    background-color: #3385ff;
+    color: white;
 }

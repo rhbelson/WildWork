@@ -1,6 +1,12 @@
  window.onload = function() {
  	cb=document.getElementById("continue_button");
  	cb.addEventListener("click",goto_todolist)
+ 	  var stats=document.getElementById("stats");
+  stats.addEventListener("click",goto_stats);
+  var todo=document.getElementById("todo");
+  todo.addEventListener("click",goto_todo);
+  var todo1=document.getElementById("navbar-header");
+  todo1.addEventListener("click",goto_todo);
 
  	/*Make All Elements invisible to start*/
  	document.getElementById("due_date1").style.visibility = "hidden";
@@ -34,7 +40,7 @@
  	document.getElementById("scale5").style.visibility="hidden";
  	document.getElementById("scale6").style.visibility="hidden";
 
- 	var pbox=document.getElementById("profile_box");
+ 	var pbox=document.getElementById("profile");
  	pbox.addEventListener("click",goto_profile);
 
 
@@ -106,4 +112,12 @@
 
  function goto_profile() {
   location.replace("profile.html");
+}
+
+function goto_stats(){
+  location.replace("stats.html");
+}
+
+function goto_todo(){
+  location.replace("todolist.html");
 }

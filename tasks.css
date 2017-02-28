@@ -1,30 +1,30 @@
  body {
-  /*background: #fff url("../img/homeimg.jpg") repeat-x;*/
-  background: #fff url("back_img.jpg") no-repeat fixed center; 
-  background-size: cover;
+  background-color:white;
  }
  
 
+ #navbar-header{
+  font-family: "Arial-black";
+  color: #7339ac;
+ }
 
  #tasks_title{
  	margin-top: 25px;
  	position:relative;
     left: 15%;
  	vertical-align: middle;
-    font-family: "proxima-nova";
-    font-style: bold;
+    font-family: "Arial";
     font-size: 50px;
-    color: #E7F1F4;
+    color: #a6a6a6;
  }
 
 
  #plusbutton {
  	position:absolute;
  	left:30%;
- 	font-family: "proxima-nova";
- 	font-style: bold;
+ 	font-family: "Arial";
  	text-align: center;
- 	margin-top: 250px;
+ 	margin-top: 80px;
  	cursor: pointer;
  }
 
@@ -33,27 +33,12 @@
 
  #time {
  	position:relative;
- 	font-family: "proxima-nova";
- 	font-style: bold;
+ 	font-family: "Arial";
  	text-shadow: 1px 1px #9BD5E6; 
  	font-size: 130px;
  	text-align: center;
- 	color: #E7F1F4;
+ 	color: #a6a6a6;
  	vertical-align: middle;
- }
-
-
- #profile_box {
-    color:#000000; 
-    cursor:pointer;
-    margin-top: 10px;
-    margin-right: 10px;
- }
-
- img{
-     border-radius: 50%;
-     width:100px;
-     height:100px;
  }
 
 
@@ -71,15 +56,13 @@
   list-style-type: none;
 }*/
 
-li {
+#editable1, #editable2, #editable3, #editable4, #editable5, #editable6 {
 	width:600px;
 	left:25%;
 	color: black;
  	padding-top: 20px;
  	padding-bottom:30px;
  	font-family: "Arial";
-    font-style: bold;
- 	font-style: bold;
  	text-align: left;
     position: relative;
     left:5%;
@@ -101,8 +84,7 @@ li {
     cursor: pointer;
     position: relative;
     font-size: 18px;
-    font-family: "proxima-nova";
-    font-style: bold;
+    font-family: "Arial";
     transition: 0.4s;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -127,7 +109,7 @@ ol li:hover {
     position: absolute;
     right:20px;
     width: 20%;
-  background-color: #4CAF50;
+  background-color: #0052cc;
   color: white;
   font-size: 30px;
   padding: 14px 20px;
@@ -138,6 +120,6 @@ ol li:hover {
 }
 
 #continue_button:hover {
-    background-color: white;
-    color: #4CAF50;
+    background-color: #3385ff;
+    color: white;
 }

@@ -6,6 +6,12 @@
 <html>
 <head>
 <title>Rack</title>
+  <title>Bootstrap Case</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script type='text/javascript' src="designtasks.js"></script>
 <script language="JavaScript" src="ts_picker.js">
 
@@ -20,9 +26,18 @@
 
 
 <body>
-	<div class="profile_box">
-		<img id="profile_box" src="profile_pic.jpg" style="width:100px;height:100px;">
-	</div>
+    <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" id="navbar-header" href="#">WildWork</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active" id="todo"><a href="#"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+      <li><a id="profile" href="#"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
+      <li><a id="stats" href="#"><span class="glyphicon glyphicon-stats"></span> Stats</a></li>
+    </ul>
+  </div>
+  </nav>
 
 	<div class= "title" id="title_box">
 	Customize Your Tasks
@@ -30,15 +45,10 @@
 
 <form>
   <h2 id="input_box1" disabled="disabled">Task #1</h2><br>
-  <div id="spacer"> </div>
   <h2 id="input_box2" disabled="disabled">Task #2</h2><br>
-  <div id="spacer"> </div>
   <h2 id="input_box3" disabled="disabled">Task #3</h2><br>
-  <div id="spacer"> </div>
   <h2 id="input_box4" disabled="disabled">Task #4</h2><br>
-  <div id="spacer"> </div>
   <h2 id="input_box5" disabled="disabled">Task #5</h2><br>
-  <div id="spacer"> </div>
   <h2 id="input_box6" disabled="disabled">Task #6</h2><br>
 </form>
 
@@ -177,39 +187,27 @@
 </div>
 
 <div id="scale1">
-  Incomplete
-  <input type="range" min="0" max="50" value="25" step="5" />
-  Complete
+  Completeness <span> <input type="range" min="0" max="50" value="25" step="5" /> </span>
   </div>
 
 <div id="scale2">
-  Incomplete
-  <input type="range" min="0" max="50" value="25" step="5" />
-  Complete
+  Completeness <input type="range" min="0" max="50" value="25" step="5" />
   </div>
 
 <div id="scale3">
-  Incomplete
-  <input type="range" min="0" max="50" value="25" step="5" />
-  Complete
+  Completeness<input type="range" min="0" max="50" value="25" step="5" />
   </div>
 
 <div id="scale4">
-  Incomplete
-  <input type="range" min="0" max="50" value="25" step="5" />
-  Complete
+  Completeness <input type="range" min="0" max="50" value="25" step="5" />
   </div>
 
 <div id="scale5">
-  Incomplete
-  <input type="range" min="0" max="50" value="25" step="5" />
-  Complete
+  Completeness <input type="range" min="0" max="50" value="25" step="5" />
   </div>
 
 <div id="scale6">
-  Incomplete
-  <input type="range" min="0" max="50" value="25" step="5" />
-  Complete
+  Completeness<input type="range" min="0" max="50" value="25" step="5" />
   </div>
 
 <button id="continue_button"> Let's Get To Work! &#10145 </button>

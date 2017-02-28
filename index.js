@@ -1,10 +1,15 @@
 window.onload=function() {
   var start=document.getElementById("getstarted_button");
-  console.log("You have "+ localStorage.getItem('num_tasks'));
   start.addEventListener("click",goto_tasks);
 
-  var pbox=document.getElementById("profile_box");
+  var pbox=document.getElementById("profile");
   pbox.addEventListener("click",goto_profile);
+  var stats=document.getElementById("stats");
+  stats.addEventListener("click",goto_stats);
+  var todo=document.getElementById("todo");
+  todo.addEventListener("click",goto_todo);
+  var todo1=document.getElementById("navbar-header");
+  todo1.addEventListener("click",goto_todo);
   /*var timebox=document.getElementById("time");
   timebox.addEventListener("click",changetime);*/
   changetime();
@@ -23,6 +28,14 @@ window.setInterval(function(){
 
 function goto_tasks() {
 	location.replace("tasks.html");
+}
+
+function goto_stats(){
+  location.replace("stats.html");
+}
+
+function goto_todo(){
+  location.replace("todolist.html");
 }
 
 function changetime() {

@@ -4,14 +4,30 @@
 <html>
 <head>
 <title>Rack</title>
+  <title>Bootstrap Case</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 
 
 <body>
-	<div id="profile_box">
-		<img id="profile_box" src="profile_pic.jpg">
-	</div>
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" id="navbar-header" href="#">WildWork</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active" id="todo"><a href="#"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+      <li><a id="profile" href="#"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
+      <li><a id="stats" href="#"><span class="glyphicon glyphicon-stats"></span> Stats</a></li>
+    </ul>
+  </div>
+	</nav>
+
 
 	<div id="date">
 	Thursday, January 26th
@@ -27,12 +43,12 @@
  <p>
   <ul id="To-Do-List">
   	 <li id="todolist_title">TO-DO LIST</li> <button id="new_task">Add New Task</button>
-     <li id="input_box1">Task1</li> <button id="b1">Start Task!</button> <button id="dt1">x</button>
-     <li id="input_box2">Task2</li> <button id="b2">Start Task!</button> <button id="dt2">x</button>
-     <li id="input_box3">Task3</li> <button id="b3">Start Task!</button> <button id="dt3">x</button>
-     <li id="input_box4">Task4</li> <button id="b4">Start Task!</button> <button id="dt4">x</button>
-     <li id="input_box5">Task5</li> <button id="b5">Start Task!</button> <button id="dt5">x</button>
-     <li id="input_box6">Task6</li> <button id="b6">Start Task!</button> <button id="dt6">x</button>
+     <li id="input_box1">Task1</li> <button id="b1">Start Task!</button> <button id="dt1">&#10005</button>
+     <li id="input_box2">Task2</li> <button id="b2">Start Task!</button> <button id="dt2">&#10005</button>
+     <li id="input_box3">Task3</li> <button id="b3">Start Task!</button> <button id="dt3">&#10005</button>
+     <li id="input_box4">Task4</li> <button id="b4">Start Task!</button> <button id="dt4">&#10005</button>
+     <li id="input_box5">Task5</li> <button id="b5">Start Task!</button> <button id="dt5">&#10005</button>
+     <li id="input_box6">Task6</li> <button id="b6">Start Task!</button> <button id="dt6">&#10005</button>
   </ul>
 </p>
 

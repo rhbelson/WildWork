@@ -1,26 +1,23 @@
  body {
   /*background: #fff url("../img/homeimg.jpg") repeat-x;*/
-  background-image: url("back_img.jpg");
-  background-size: cover; 
+  background-color:white;
 
  }
  
+   #navbar-header{
+  font-family: "Arial-black";
+  color: #7339ac;
+ }
+
  #title_box {
  	text-align:center;
  	vertical-align: middle;
-    font-family: "proxima-nova";
+    font-family: "Arial";
     font-style: bold;
     font-size: 50px;
-    color: #E7F1F4; 
+    color: #a6a6a6; 
     position: relative;
-    top:-50px;
  	}
-
-
-#due_date1,#due_date2,#due_date3,#due_date4,#due_date5,#due_date6 {
-	position: relative;
-	top:-40px;
-}
 
 
 #profile_box {
@@ -39,7 +36,7 @@
 
  #getstarted_box {
  	color:green;
- 	font-family: "proxima-nova", serif;
+ 	font-family: "Arial";
  	font-size: 50px;
  	font-style: bold;
  	text-shadow: 1px 1px; 
@@ -73,137 +70,41 @@
 }
 
 
+#input_box1,#input_box2,#input_box3,#input_box4,#input_box5,#input_box6{
+	position: relative;
+	right:60px;
+	padding:10px;
+	margin-top:21px;
+	background: #c0c0c0;
+	font-size: 25px;
+	font-family: "Arial";
+	color:black;
+	opacity: .7;
+	border-radius: 20px;
+	transform: translateY(180%);
+	transform: translateX(50%);
+	height:fit-content;
+	width: 200px;
+}
+
+#due_date1,#due_date2,#due_date3,#due_date4,#due_date5,#due_date6 {
+	position: relative;
+	bottom:30px;
+}
+
 #cal1,#cal2,#cal3,#cal4,#cal5,#cal6 {
 	position: relative;
-	top:-40px;
 	left:30px;
+	bottom:30px;
 }
 
 #task_type1,#task_type2,#task_type3,#task_type4,#task_type5,#task_type6 {
 	position: relative;
 	left:30px;
-}
-#task_type1 {
-	top:-40px;
-}
-#task_type2 {
-	top:-35px;
-}
-#task_type3 {
-	top:-30px;
-}
-#task_type4 {
-	top:-30px;
-}
-#task_type5 {
-	top:-30px;
-}
-#task_type6 {
-	top:-25px;
+	bottom:45px;
+	margin-top:5px;
 }
 
-#input_box1{
-	position: absolute;
-	top: 140px;
-	right: 1075px;
-	padding-right: 20px;
-	padding-left: 20px;
-	background: #c0c0c0;
-	font-size: 25px;
-	font-family: "proxima-nova", serif;
-	color:black;
-	opacity: .7;
-	border-radius: 20px;
-	transform: translateY(180%);
-	transform: translateX(50%);
-	height:fit-content;
-	width: 200px;
-}
-#input_box2{
-	position: absolute;
-	top: 230px;
-	right: 1075px;
-	padding-right: 20px;
-	padding-left: 20px;
-	background: #c0c0c0;
-	font-size: 25px;
-	font-family: "proxima-nova", serif;
-	color:black;
-	opacity: .7;
-	border-radius: 20px;
-	transform: translateY(180%);
-	transform: translateX(50%);
-	height:fit-content;
-	width: 200px;
-}
-#input_box3{
-	position: absolute;
-	top: 320px;
-	right: 1075px;
-	padding-right: 20px;
-	padding-left: 20px;
-	background: #c0c0c0;
-	font-size: 25px;
-	font-family: "proxima-nova", serif;
-	color:black;
-	opacity: .7;
-	border-radius: 20px;
-	transform: translateY(180%);
-	transform: translateX(50%);
-	height:fit-content;
-	width: 200px;
-}
-#input_box4{
-	position: absolute;
-	top: 410px;
-	right: 1075px;
-	padding-right: 20px;
-	padding-left: 20px;
-	background: #c0c0c0;
-	font-size: 25px;
-	font-family: "proxima-nova", serif;
-	color:black;
-	opacity: .7;
-	border-radius: 20px;
-	transform: translateY(180%);
-	transform: translateX(50%);
-	height:fit-content;
-	width: 200px;
-}
-#input_box5{
-	position: absolute;
-	top: 500px;
-	right: 1075px;
-	padding-right: 20px;
-	padding-left: 20px;
-	background: #c0c0c0;
-	font-size: 25px;
-	font-family: "proxima-nova", serif;
-	color:black;
-	opacity: .7;
-	border-radius: 20px;
-	transform: translateY(180%);
-	transform: translateX(50%);
-	height:fit-content;
-	width: 200px;
-}
-#input_box6{
-	position: absolute;
-	top: 590px;
-	right: 1075px;
-	padding-right: 20px;
-	padding-left: 20px;
-	background: #c0c0c0;
-	font-size: 25px;
-	font-family: "proxima-nova", serif;
-	color:black;
-	opacity: .7;
-	border-radius: 20px;
-	transform: translateY(180%);
-	transform: translateX(50%);
-	height:fit-content;
-	width: 200px;
-}
 
 #dropdown1 {
     position: absolute;
@@ -213,73 +114,21 @@
 
 #dropdown2 {
 	position: absolute;
-	top: 210px;
+	top: 225px;
 	right: 425px;
 }
 
-#scale1{
-	position: absolute;
-	top: 170px;
-	right: 50px;
+#scale1,#scale2,#scale3,#scale4,#scale5,#scale6{
+	position: relative;
+	left: 970px;
+	bottom:600px;
+	margin-top:45px;
+	width:250px;
 	font-size: 20px;
-	color: white;
-	font-family: "proxima-nova", serif;
+	color: #a6a6a6;
+	font-family: "Arial";
  	font-style: bold;
 }
-#scale2{
-	position: absolute;
-	top: 190px;
-	right: 50px;
-	font-size: 20px;
-	color: white;
-	font-family: "proxima-nova", serif;
- 	font-style: bold;
- 	margin-top: 70px;
-}
-#scale3{
-	position: absolute;
-	top: 200px;
-	right: 50px;
-	font-size: 20px;
-	color: white;
-	font-family: "proxima-nova", serif;
- 	font-style: bold;
- 	margin-top: 150px;
-}
-#scale4{
-	position: absolute;
-	top: 190px;
-	right: 50px;
-	font-size: 20px;
-	color: white;
-	font-family: "proxima-nova", serif;
- 	font-style: bold;
- 	margin-top: 250px;
-}
-
-#scale5{
-	position: absolute;
-	top: 175px;
-	right: 50px;
-	font-size: 20px;
-	color: white;
-	font-family: "proxima-nova", serif;
- 	font-style: bold;
- 	margin-top: 350px;
-}
-#scale6{
-	position: absolute;
-	top: 270px;
-	right: 50px;
-	font-size: 20px;
-	color: white;
-	font-family: "proxima-nova", serif;
- 	font-style: bold;
- 	margin-top: 350px;
-}
-
-
-
 
 
 #continue_button {
@@ -287,7 +136,8 @@
   position: absolute;
   right:20px;
   width: 30%;
-  background-color: #4CAF50;
+  margin-bottom: 20px;
+  background-color: #0052cc;
   color: white;
   font-size: 30px;
   padding: 14px 20px;
@@ -300,8 +150,8 @@
 }
 
 #continue_button:hover {
-    background-color: white;
-    color: #4CAF50;
+    background-color: #3385ff;
+    color: white;
 }
 
 

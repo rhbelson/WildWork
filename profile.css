@@ -1,42 +1,47 @@
 body {
   /*background: #fff url("../img/homeimg.jpg") repeat-x;*/
-  background: #fff url("profile_img.jpg") no-repeat fixed center; 
+  background: #fff url("sky.gif") no-repeat fixed center; 
   background-size: cover;
  }
  
  #title_box {
  
- 	font-family: "proxima-nova"; 
+ 	font-family: "Arial"; 
     font-size: 75px;
     display:block;
     line-height: 1em;
     text-transform: uppercase;
  	text-align: center;
- 	margin-left: 400px;
+ 	margin-left: 415px;
  	margin-top: 180px;
- 	color: #DEDEDE;
- 	font-weight: 700;
+ 	color: #B3B3B3;
+
     font-style: normal;
  }
 
 
 #save_changes {
     position: relative;
-    left:44%;
+    left:53.5%;
     cursor: pointer;
-    background-color: #4CAF50;
+    background-color: #0052cc;
     color: white;
     font-size: 20px;
-    width:500px;
+    width:340px;
     padding: 14px 20px;
     border: none;
     border-radius: 4px;
 }
 
+#save_changes:hover {
+    background-color: #3385ff;
+    color: white;
+}
+
  #profile_pic {
  
  	top: 100px;
- 	margin-left: 335px;
+ 	margin-left: 320px;
 
  	
  }
@@ -49,11 +54,12 @@ body {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    color: #B3B3B3;
    
 }
 
 input[type=submit] {
-    width: 60%;
+    width: 58%;
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
@@ -72,7 +78,20 @@ input[type=submit]:hover {
 {
 	margin-left: 650px;
 	margin-top: -200px;
+    color:#B3B3B3;
 
+}
+
+#fname{
+font-family: "Arial";
+}
+
+#lname{
+font-family: "Arial";
+}
+
+#language{
+font-family: "Arial";
 }
 
 img {

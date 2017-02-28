@@ -17,8 +17,14 @@ window.onload=function() {
   set_time();
   console.log(elapsed_time_string);
 
-  var pbox=document.getElementById("probox");
+  var pbox=document.getElementById("profile");
   pbox.addEventListener("click",goto_profile);
+  var stats=document.getElementById("stats");
+  stats.addEventListener("click",goto_stats);
+  var todo=document.getElementById("todo");
+  todo.addEventListener("click",goto_todo);
+  var todo1=document.getElementById("navbar-header");
+  todo1.addEventListener("click",goto_todo);
 }
 
 function set_time() {
@@ -151,5 +157,12 @@ function changetime() {
 
 function goto_profile() {
   location.replace("profile.html");
+}
+function goto_stats(){
+  location.replace("stats.html");
+}
+
+function goto_todo(){
+  location.replace("todolist.html");
 }
 

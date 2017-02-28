@@ -6,12 +6,18 @@ window.onload=function() {
   changetime();
   var add_newtask=document.getElementById("new_task");
   add_newtask.addEventListener("click",add_new_tasks);
+  var stats=document.getElementById("stats");
+  stats.addEventListener("click",goto_stats);
+  var todo=document.getElementById("todo");
+  todo.addEventListener("click",goto_todo);
+  var todo1=document.getElementById("navbar-header");
+  todo1.addEventListener("click",goto_todo);
 
 
   
 
 
-  var pbox=document.getElementById("profile_box");
+  var pbox=document.getElementById("profile");
   pbox.addEventListener("click",goto_profile);
   st1=document.getElementById('b1');
   st2=document.getElementById('b2');
@@ -53,7 +59,7 @@ window.onload=function() {
   document.getElementById('input_box1').style.visibility="visible";
   document.getElementById('input_box1').innerHTML=t_1;
   document.getElementById('b1').style.visibility="visible";
-  document.getElementById("To-Do-List").style.height="100px";
+  document.getElementById("To-Do-List").style.height="150px";
   document.getElementById('dt1').style.visibility="visible";
 }
   
@@ -62,7 +68,7 @@ window.onload=function() {
   document.getElementById('input_box2').style.visibility="visible";
   document.getElementById('input_box2').innerHTML=t_2;
   document.getElementById('b2').style.visibility="visible";
-  document.getElementById("To-Do-List").style.height="225px";
+  document.getElementById("To-Do-List").style.height="280px";
   document.getElementById('dt2').style.visibility="visible";
 }
 
@@ -71,7 +77,7 @@ window.onload=function() {
   document.getElementById('input_box3').style.visibility="visible";
   document.getElementById('input_box3').innerHTML=t_3;
   document.getElementById('b3').style.visibility="visible";
-  document.getElementById("To-Do-List").style.height="350px";
+  document.getElementById("To-Do-List").style.height="400px";
   document.getElementById('dt3').style.visibility="visible";
 }
   t_4=localStorage.getItem('t4');
@@ -79,7 +85,7 @@ window.onload=function() {
   document.getElementById('input_box4').style.visibility="visible";
   document.getElementById('input_box4').innerHTML=t_4;
   document.getElementById('b4').style.visibility="visible";
-  document.getElementById("To-Do-List").style.height="475px";
+  document.getElementById("To-Do-List").style.height="525px";
   document.getElementById('dt4').style.visibility="visible";
   }
   
@@ -89,7 +95,7 @@ window.onload=function() {
   document.getElementById('input_box5').innerHTML=t_5;
   document.getElementById('input_box5').style.visibility="visible";
   document.getElementById('b5').style.visibility="visible";
-  document.getElementById("To-Do-List").style.height="600px";
+  document.getElementById("To-Do-List").style.height="650px";
   document.getElementById('dt5').style.visibility="visible";
 }
 
@@ -97,9 +103,9 @@ window.onload=function() {
   if (t_6) {
   document.getElementById('input_box6').innerHTML=t_6;
   document.getElementById('input_box6').style.visibility="visible";
-  document.getElementById("To-Do-List").style.height="725px";
+  document.getElementById("To-Do-List").style.height="775px";
   document.getElementById('b6').style.visibility="visible";
-  document.getElementById('new_task').style.visibility="hidden";
+  document.getElementById('new_task').style.visibility="visible";
   document.getElementById('dt6').style.visibility="visible";
 }
 
@@ -148,7 +154,7 @@ function refactor() {
   document.getElementById('input_box1').style.visibility="visible";
   document.getElementById('input_box1').innerHTML=t_1;
   document.getElementById('b1').style.visibility="visible";
-  document.getElementById("To-Do-List").style.height="100px";
+  document.getElementById("To-Do-List").style.height="150px";
   document.getElementById('dt1').style.visibility="visible";
 }
   
@@ -157,7 +163,7 @@ function refactor() {
   document.getElementById('input_box2').style.visibility="visible";
   document.getElementById('input_box2').innerHTML=t_2;
   document.getElementById('b2').style.visibility="visible";
-  document.getElementById("To-Do-List").style.height="225px";
+  document.getElementById("To-Do-List").style.height="275px";
   document.getElementById('dt2').style.visibility="visible";
 }
 
@@ -166,7 +172,7 @@ function refactor() {
   document.getElementById('input_box3').style.visibility="visible";
   document.getElementById('input_box3').innerHTML=t_3;
   document.getElementById('b3').style.visibility="visible";
-  document.getElementById("To-Do-List").style.height="350px";
+  document.getElementById("To-Do-List").style.height="400px";
   document.getElementById('dt3').style.visibility="visible";
 }
   t_4=localStorage.getItem('t4');
@@ -174,7 +180,7 @@ function refactor() {
   document.getElementById('input_box4').style.visibility="visible";
   document.getElementById('input_box4').innerHTML=t_4;
   document.getElementById('b4').style.visibility="visible";
-  document.getElementById("To-Do-List").style.height="475px";
+  document.getElementById("To-Do-List").style.height="525px";
   document.getElementById('dt4').style.visibility="visible";
   }
   
@@ -184,7 +190,7 @@ function refactor() {
   document.getElementById('input_box5').innerHTML=t_5;
   document.getElementById('input_box5').style.visibility="visible";
   document.getElementById('b5').style.visibility="visible";
-  document.getElementById("To-Do-List").style.height="600px";
+  document.getElementById("To-Do-List").style.height="650px";
   document.getElementById('dt5').style.visibility="visible";
 }
 
@@ -192,7 +198,7 @@ function refactor() {
   if (t_6) {
   document.getElementById('input_box6').innerHTML=t_6;
   document.getElementById('input_box6').style.visibility="visible";
-  document.getElementById("To-Do-List").style.height="725px";
+  document.getElementById("To-Do-List").style.height="775px";
   document.getElementById('b6').style.visibility="visible";
   document.getElementById('new_task').style.visibility="hidden";
   document.getElementById('dt6').style.visibility="visible";
@@ -224,6 +230,7 @@ function delete_t1() {
 }
 function delete_t2() {
   document.getElementById("b2").style.visibility="hidden";
+  console.log("delete_t2 function removed");
   document.getElementById("dt2").style.visibility="hidden";
   document.getElementById("input_box2").style.visibility="hidden";
   localStorage.removeItem('t2');
@@ -260,7 +267,7 @@ function delete_t6() {
 
 function resize() {
   number_tasks=parseInt(localStorage.getItem('num_tasks'));
-  number_tasks=number_tasks-1;
+  number_tasks=parseInt(number_tasks)-parseInt(1);
   localStorage.setItem('number_tasks',number_tasks);
   console.log("Your NEW number of tasks"+number_tasks);
   if (number_tasks==1) {
@@ -308,7 +315,7 @@ function rearrange_tasks() {
   }
   t_2=localStorage.getItem('t2');
   if (t_2==null) {
-    if (t_1){
+    if (t_2){
     localStorage.setItem('t2',t_3);}
     if (t_3){
     localStorage.setItem('t3',t_4);}
@@ -487,4 +494,12 @@ function changetime() {
 
 function goto_profile() {
   location.replace("profile.html");
+}
+
+function goto_stats(){
+  location.replace("stats.html");
+}
+
+function goto_todo(){
+  location.replace("todolist.html");
 }

@@ -4,21 +4,39 @@
 <html>
 <head>
 <title>Rack</title>
+  <title>Bootstrap Case</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 
 
 <body>
-	<div id="profile_box" class="profile_box">
-		<img src="profile_pic.jpg">
-	</div>
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" id="navbar-header" href="#">WildWork</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active" id="todo"><a href="#"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+      <li><a id="profile" href="#"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
+      <li><a id="stats" href="#"><span class="glyphicon glyphicon-stats"></span> Stats</a></li>
+    </ul>
+  </div>
+	</nav>
+
+	
 
 	<div class= "title" id="title_box">
 	Session Summary
 	</div>
-	<div class="taskName" id="taskName">
-	Task Name due: <span id="time-date"> dd/mm </span>
-	</div>
+
+<div id= "rcorners">
+
+	<div id="great"> Great job with: <span id="session_task"></span></div>
 	<div class="timeSpent" id="timeSpent">
 	Time Spent: <span id="time-date"> hh:mm:ss </span>
 	</div>
@@ -26,7 +44,8 @@
 	Indicate how complete the task is now:
 	</div>
 	<div id= "scale">
-	Incomplete<input type="range" id="a" value="50">Complete
+	<form>
+	<p id="incomp">Incomplete</p><input type="range" id="a" value="50"><p id="comp">Complete</p>
 	</form>
 	</div>
 	<div class="distract" id="distract">
@@ -34,14 +53,16 @@
 	</div>
 
 	<div class="links" id="links">
-	<a> www.facebook.com </a>
+	www.facebook.com
 	</div>
 	<div class="links" id="links">
-	<a> www.pinterest.com </a>
+	www.pinterest.com
 	</div>
 	<div class="links" id="links">
-	<a> www.instagram.com </a>
+	www.instagram.com
 	</div>
+
+</div>
 
 	<button id="done"> Done </button>
 

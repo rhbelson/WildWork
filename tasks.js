@@ -76,17 +76,34 @@ function cont() {
 
 }
 
-function goto_profile() {
-  location.replace("profile.html");
-}
-
 
  window.onload = function() {
     var continue_button=document.getElementById('continue_button');
     continue_button.addEventListener("click",cont);
 
-    var pbox=document.getElementById("profile_box");
+    var pbox=document.getElementById("profile");
     pbox.addEventListener("click",goto_profile);
+  var stats=document.getElementById("stats");
+  stats.addEventListener("click",goto_stats);
+  var todo=document.getElementById("todo");
+  todo.addEventListener("click",goto_todo);
+  var todo1=document.getElementById("navbar-header");
+  todo1.addEventListener("click",goto_todo);
+
+  function goto_profile() {
+  location.replace("profile.html");
+}
+function goto_tasks() {
+    location.replace("tasks.html");
+}
+
+function goto_stats(){
+  location.replace("stats.html");
+}
+
+function goto_todo(){
+  location.replace("todolist.html");
+}
 
     var e1 = document.getElementById('editable1');
     var e2=document.getElementById('editable2');
@@ -215,3 +232,18 @@ function goto_profile() {
 
 
         }
+
+function goto_tasks() {
+  location.replace("tasks.html");
+}
+
+function goto_stats(){
+  location.replace("stats.html");
+}
+
+function goto_todo(){
+  location.replace("todolist.html");
+}
+function goto_profile() {
+  location.replace("profile.html");
+}
