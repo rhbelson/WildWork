@@ -4,21 +4,36 @@
 <html>
 <head>
 <title>Rack</title>
+  <title>Bootstrap Case</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 
 
 <body>
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" id="navbar-header" href="#">WildWork</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li id="todo"><a href="#"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+      <li class="active" ><a id="profile" href="#"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
+      <li><a id="stats" href="#"><span class="glyphicon glyphicon-stats"></span> Stats</a></li>
+    </ul>
+  </div>
+	</nav>
 
-	<div class= "title" id="title_box">
-	profile
-	</div>
+	<h1 class= "title" id="title_box">
+	PROFILE
+	</h1>
 
-	<div id="profile_pic">
-	<img src="profile_pic.jpg" style="width:200px;height:200px;">
-	</div>
 
-	<div>
+	<div id="form">
 		<form action="/action_page.php" id="text_form" >
 		<label for="fname"></label>
 			<input type="text" id="fname" name="firstname" placeholder="First Name">
