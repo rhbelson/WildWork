@@ -4,6 +4,14 @@
 
  }
  
+
+html,body
+{
+    position: absolute;
+    width: 100%;
+}
+
+
    #navbar-header{
   font-family: "Arial-black";
   color: #7339ac;
@@ -66,7 +74,7 @@
 }
 
 #spacer3{
-	height: 65px;
+	height: 55px;
 }
 
 
@@ -81,7 +89,7 @@
 	color:black;
 	opacity: .7;
 	border-radius: 20px;
-	transform: translateY(180%);
+	transform: translateY(140%);
 	transform: translateX(50%);
 	height:fit-content;
 	width: 200px;
@@ -94,36 +102,35 @@
 
 #cal1,#cal2,#cal3,#cal4,#cal5,#cal6 {
 	position: relative;
-	left:30px;
+	left:120px;
 	bottom:30px;
 }
 
 #task_type1,#task_type2,#task_type3,#task_type4,#task_type5,#task_type6 {
 	position: relative;
-	left:30px;
-	bottom:45px;
+	left:20px;
+	top:235px;
 	margin-top:5px;
 }
 
 
 #dropdown1 {
-    position: absolute;
-    top: 210px;
-    right: 600px;
+    position: relative;
+    top: -520px;
+    right: -400px;
 }
 
 #dropdown2 {
-	position: absolute;
-	top: 225px;
-	right: 425px;
+	position: relative;
+	top: -1420px;
+	right: -1400px;
 }
 
 #scale1,#scale2,#scale3,#scale4,#scale5,#scale6{
 	position: relative;
-	left: 900px;
-	bottom:600px;
-	margin-top:45px;
-	width:250px;
+	left: 910px;
+	top:-1620px;
+	width:315px;
 	font-size: 20px;
 	color: #a6a6a6;
 	font-family: "Arial";
@@ -133,10 +140,9 @@
 
 #continue_button {
   cursor: pointer;
-  position: absolute;
-  right:20px;
-  width: 30%;
-  margin-bottom: 20px;
+  position: relative;
+  width: fit-content;
+  margin-bottom: 75px;
   background-color: #0052cc;
   color: white;
   font-size: 30px;
@@ -144,7 +150,8 @@
   border: none;
   border-radius: 4px;
   text-align:center;
-  bottom:-200px;
+  left:72%;
+  top:-1780px;
 
 
 }
