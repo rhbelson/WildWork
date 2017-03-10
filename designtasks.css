@@ -98,18 +98,19 @@ html,body
 #due_date1,#due_date2,#due_date3,#due_date4,#due_date5,#due_date6 {
 	position: relative;
 	bottom:30px;
+  right:90px;
 }
 
 #cal1,#cal2,#cal3,#cal4,#cal5,#cal6 {
 	position: relative;
-	left:120px;
+	right:30px;
 	bottom:30px;
 }
 
 #task_type1,#task_type2,#task_type3,#task_type4,#task_type5,#task_type6 {
 	position: relative;
-	left:20px;
-	top:235px;
+	right:650px;
+	top:340px;
 	margin-top:5px;
 }
 
